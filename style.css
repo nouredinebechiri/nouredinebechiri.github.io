@@ -61,10 +61,9 @@ iframe {
     margin: 0px;
 }
 .title{
-    font-size: 34px;
+    color: var(--color4);
     margin-bottom: 0px;
     padding-bottom: 0px;
-    color: var(--color4);
 }
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
@@ -212,8 +211,8 @@ a.header_link:hover{
 .section {
     padding-left: 200px;
     padding-right:200px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     overflow: auto;
 }
 .section_col1 {
@@ -244,7 +243,7 @@ div.section-grise2 {
 
 h2 {
     
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 0px;
     color: var(--color4);
 }
@@ -575,7 +574,6 @@ img.portfolio {
     }
     h2 {
         font-size: 30px;
-        
     }
     
     div.col-contenu {
