@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
 }
+
+
 .center{
     text-align: center;
 }
@@ -89,21 +91,25 @@ img.cover-profile {
     margin-left: -50px;
     margin-top: 50px;
 }
-.lettre{
-    font-size: 32px;
-}
+
 h1 {
     color: var(--color1);
-    
     margin: 20px 0px 0px 0px;
     padding: 0px;
 }
+
 .nb {
     
     color: white;
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+.lettre{
+    font-size: 32px;
+}
+.nb_word{
+    display: inline;
 }
 div.cover-content {
     max-width: 630px; margin: auto;
@@ -542,7 +548,16 @@ img.portfolio {
         margin-top: 2px;
         font-size: 13px;
     }
-
+    
+    .nb{
+        font-size: 22px;
+    }
+    .lettre{
+        font-size: 26px;
+    }
+    .nb_word{
+        display: block;
+    }
     .section {
         padding-left: 20px;
         padding-right: 20px;
