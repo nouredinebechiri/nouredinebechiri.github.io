@@ -67,14 +67,14 @@ iframe {
 }
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
-    height: 450px;
+    min-height: 450px;
     position: relative;
 }
 .language{
-    margin: 77px 50px 0px 50px;
-    width: 100px;
-    float: right;
-    
+   
+    position: absolute;
+    top: 10px;
+    right: 80px;    
 }
 .lang-title{
     color: white;
@@ -88,7 +88,7 @@ img.cover-profile {
     position: relative;
     left: 50%;
     margin-left: -50px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 h1 {
@@ -130,12 +130,10 @@ div.cover-contact a{
     border-bottom:  3px solid var(--color1);
 }
 .header_iframe{
-    height: 75px;
+    height:75px;
 }
 .header_img{
-    width: 80px;
-    margin-left: 15px; 
-    margin-top: 18px;
+    width: 70px;    
 }
 .header-contact {
     position: absolute;
@@ -399,7 +397,8 @@ img.portfolio {
                    
 }
 .service-tech h3 {
-    margin: 0px;                                                                                                                                                                                                                                                                                                                                                                                                                             px;
+    font-size: 24px;
+    margin-bottom:5px;                                                                                                                                                                                                                                                                                                                                                                                                                             px;
 }
 .service-tech tr{
     margin-top: 15px;
@@ -493,11 +492,7 @@ img.portfolio {
         display: block;
         margin-bottom: 10px;
     }
-    .header_img{
-        margin-top: 25px;
-        margin-left: 10px; 
-        width: 55px;
-    }
+ 
     .header-contact {
         padding-left: 10px;
         left: 65px;
