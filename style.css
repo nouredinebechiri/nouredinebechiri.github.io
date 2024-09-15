@@ -67,7 +67,7 @@ iframe {
 }
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
-    min-height: 450px;
+    min-height: 300px;
     position: relative;
 }
 .language{
@@ -91,19 +91,13 @@ img.cover-profile {
     margin-top: 0px;
 }
 
-h1 {
-    color: var(--color1);
-    margin: 20px 0px 0px 0px;
-    padding: 0px;
-}
-
 .nb {
-    
     color: white;
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
 .lettre{
     font-size: 32px;
 }
@@ -131,11 +125,12 @@ div.cover-contact a{
 }
 
 .header_iframe{
- 
-    height:75px;
+    height:auto;
+    
+
 }
 .header_img{
-    width: 70px;    
+    width: 60px;    
 }
 .header-contact {
     position: absolute;
@@ -167,9 +162,7 @@ a.contact-button {
     border: 3px solid var(--color1);
     padding: 8px 20px;
     text-decoration: none;
-    
     display: inline-block;
-    margin-top: 15px;
     font-size: 14px;
 }
 a.contact-button2 {
@@ -183,9 +176,7 @@ a.contact-button2 {
     font-size: 14px;
 }
 a.contact-button-portfolio {
-    position: absolute; 
-    right: 20px; 
-    top:5px;
+  
 }
 
 a.contact-button:hover {
@@ -343,10 +334,14 @@ div.frame img {
 }
 
 /* PORTFOLIO */
-.portfolio-header {
-    min-height: 75px;
+.portfolio-header { 
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
     background: url(img/header.jpg) no-repeat center/cover;
-    position: relative;
+    
 }
 
 .portfolio-header-title {
@@ -554,7 +549,9 @@ img.portfolio {
         padding: 0px;
         margin: 0px;        
     }
-    
+    .cover{
+        min-height: 200px;
+    }
     div.cover p {
         margin-top: 2px;
         font-size: 13px;
