@@ -129,7 +129,9 @@ div.cover-contact a{
     margin-right: 10px;
     border-bottom:  3px solid var(--color1);
 }
+
 .header_iframe{
+ 
     height:75px;
 }
 .header_img{
@@ -213,6 +215,21 @@ a.header_link:hover{
     padding-bottom: 40px;
     overflow: auto;
 }
+.fixed-top{
+
+    padding-left: 200px;
+    padding-right:200px;
+    
+}
+
+.navbar-custom {
+    
+}
+.navbar-custom.scrolled {
+    background: url(img/header.jpg) no-repeat center/cover;
+   
+}
+
 .section_col1 {
     background-color: var(--color2);
 }
@@ -687,6 +704,10 @@ img.portfolio {
     
     .img_vmware_col{
         max-width: 100%;
+    }
+    .fixed-top{
+        padding-left: 0px;
+        padding-right:0px;
     }
    
 }
