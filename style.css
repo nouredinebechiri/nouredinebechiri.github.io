@@ -60,11 +60,7 @@ iframe {
     height: 50px;
     margin: 0px;
 }
-.title{
-    color: var(--color4);
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
+
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
     min-height: 300px;
@@ -172,8 +168,7 @@ a.contact-button2 {
     text-decoration: none;
     background-color: var(--color3);
     display: inline-block;
-    margin-top: 20px;
-    font-size: 14px;
+    margin-bottom: 60px; 
 }
 a.contact-button-portfolio {
   
@@ -206,6 +201,11 @@ a.header_link:hover{
     padding-bottom: 40px;
     overflow: auto;
 }
+.section h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-style: normal;
+}
 .fixed-top{
 
     padding-left: 200px;
@@ -225,12 +225,11 @@ a.header_link:hover{
     background-color: var(--color2);
 }
 .description{
-    background-color: var(--color5);
-    color: white;
+   
+  
 }
 .service_title{
-   
-    color: white;
+   margin-bottom: 20px;
 }
 .expertise{
     background-color: var(--color2);
@@ -248,12 +247,15 @@ div.section-grise2 {
 }
 
 h2 {
-    
+
     font-size: 32px;
     margin-top: 0px;
     color: var(--color4);
 }
-
+.presentation{
+    font-style: italic;
+    margin-top: 20px;
+}
 div.separateur {
     background-color: #979797;
     height: 1px;
@@ -409,8 +411,7 @@ img.portfolio {
                    
 }
 .service-tech h3 {
-    font-size: 24px;
-    margin-bottom:5px;                                                                                                                                                                                                                                                                                                                                                                                                                             px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                 px;
 }
 .service-tech tr{
     margin-top: 15px;
@@ -433,6 +434,9 @@ img.portfolio {
     min-height: 200px;
 
 }
+.need_help{
+    font-weight: bold;
+}
 .help_categroies{
     height: 40px;       
 }
@@ -445,7 +449,7 @@ img.portfolio {
 }
 .aa td h3{
     font-size: 22px;
-    color: white;
+    
 }
 .portfolio_col tr p{
     text-align: left;
@@ -531,19 +535,14 @@ img.portfolio {
         font-size: 12px;
     }
     a.contact-button2 {
-        width: 215px;
-       display: block;
-       margin: auto;
+       
     }
 
     a.contact-button-portfolio {
         right: 12px; 
     }
    
-    .aa td h3{
-        color: white;
-    }
-   
+  
     h1 {
         font-size: 32px;
         padding: 0px;
