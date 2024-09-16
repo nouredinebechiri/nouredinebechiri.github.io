@@ -63,7 +63,7 @@ iframe {
 
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
-    min-height: 300px;
+    min-height: 400px;
     position: relative;
 }
 .language{
@@ -84,7 +84,7 @@ img.cover-profile {
     position: relative;
     left: 50%;
     margin-left: -50px;
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
 .nb {
