@@ -121,9 +121,7 @@ div.cover-contact a{
 }
 
 .header_iframe{
-    height:auto;
-    
-
+    height: 80px;
 }
 .header_img{
     width: 60px;    
@@ -170,9 +168,7 @@ a.contact-button2 {
     display: inline-block;
     margin-bottom: 60px; 
 }
-a.contact-button-portfolio {
-  
-}
+
 
 a.contact-button:hover {
     color: white;
@@ -526,15 +522,6 @@ img.portfolio {
         height: 90px;
         
     }
-
-    a.contact-button {
-        padding: 5px 10px;
-        font-size: 12px;
-    }
-    a.contact-button2 {
-       
-    }
-
     a.contact-button-portfolio {
         right: 12px; 
     }
