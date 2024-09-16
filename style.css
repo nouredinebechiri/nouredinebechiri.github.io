@@ -437,9 +437,6 @@ img.portfolio {
 .need_help{
     font-weight: bold;
 }
-.help_categroies{
-    height: 40px;       
-}
 .aa td img{
     width: 50px;
     height: 50px;
@@ -705,5 +702,5 @@ img.portfolio {
         padding-left: 0px;
         padding-right:0px;
     }
-   
+
 }
