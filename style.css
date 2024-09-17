@@ -541,6 +541,8 @@ img.portfolio {
         font-size: 13px;
     }
     .language{
+        position:fixed;
+        top: 8px;
         right: 80px;    
     }
     .nb{
