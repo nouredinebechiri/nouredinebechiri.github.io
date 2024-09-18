@@ -518,6 +518,12 @@ img.portfolio {
         display: inline-block;
         max-width: 100%;
     }
+    .col-parcours-competences {
+        width: 100%;
+        }
+        .col-conetenu-contact {
+            width: 100%;
+        }
     
 }
 /* RESPONSIVE DESIGN : MOBILE */
