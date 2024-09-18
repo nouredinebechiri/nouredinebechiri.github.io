@@ -107,7 +107,7 @@ div.cover-content {
 div.cover p {
     color: lightgray;
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 div.cover-contact {
@@ -167,7 +167,6 @@ a.contact-button2 {
     text-decoration: none;
     background-color: var(--color3);
     display: inline-block;
-    margin-bottom: 60px; 
 }
 
 
@@ -190,6 +189,9 @@ a.link:hover{
 }
 a.header_link:hover{
     border-bottom:  3px solid white;
+}
+.sect-padding-top{
+    padding-top: 60px;
 }
 .section {
     padding-left: 200px;
@@ -216,20 +218,17 @@ a.header_link:hover{
    
 }
 
-.section_col1 {
-    background-color: var(--color2);
-}
-.description{
-   
-  
-}
+
 .service_title{
    margin-bottom: 20px;
 }
 .expertise{
     background-color: var(--color2);
 }
-div.section-grise1 {
+.expertise h3{
+    margin-bottom: 5px;
+}
+/* div.section-grise1 {
     background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color: var(--color2);
     padding-bottom: 70px;
@@ -239,10 +238,9 @@ div.section-grise2 {
     background: url(triangle1white.svg) no-repeat center top/100%;
     background-color: var(--color2);
     padding-top: 80px;
-}
+} */
 
 h2 {
-
     font-size: 32px;
     margin-top: 0px;
     color: var(--color4);
@@ -251,7 +249,7 @@ h2 {
     font-style: italic;
     margin-top: 20px;
 }
-div.separateur {
+div.separator {
     background-color: #979797;
     height: 1px;
     width: 150px;
@@ -383,13 +381,11 @@ img.portfolio {
 .display-mobile {
     display: none;
 }
-
-
 /* CSS ADDED BY NB*/
 
 .line-verticale{
     width: 4px;
-    height: 95px;  
+    height: 76px;  
 }
 .ad-col{
     border-left: 4px solid rgb(28, 123, 231);  
@@ -411,6 +407,13 @@ img.portfolio {
     display: inline-block;
     max-width: 75%;
 }
+.service-tech h3{
+    font-size: 20px;
+}
+.vsphere h3{
+    font-size: 55px;
+    color: var(--color3);
+}
 .portfolio_col tr{
     margin-top: 40px ;  
     display: inline-block;
@@ -419,11 +422,11 @@ img.portfolio {
     text-align: center;
 }
 .aa tr{
-    margin-right: 55px;;
+    margin-right: 40px;;
     margin-top: 5px ;  
     margin-bottom: 5px;
     display: inline-block;
-    max-width: 43%;
+    max-width: 40%;
     min-height: 200px;
 
 }
@@ -437,10 +440,7 @@ img.portfolio {
     margin-right: 10px;
     float: left;
 }
-.aa td h3{
-    font-size: 22px;
-    
-}
+
 .portfolio_col tr p{
     text-align: left;
 }
@@ -449,7 +449,7 @@ img.portfolio {
 }
 
 .img-serivce-tech{
-    max-width: 150px;
+    width: 120px;
 }
 
 .img_portfolio_col{
@@ -457,10 +457,10 @@ img.portfolio {
     height: 80px;
     
 }
-.img_aa{
+/* .img_aa{
     max-width: 150px;
     height: 80px;
-}
+} */
 .section-content{
     margin: auto; 
     width: 80%;
@@ -493,6 +493,10 @@ img.portfolio {
 }
 
 @media only screen and (max-width: 1235px) {
+    .expertise{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .aa tr{
         max-width: 100%;
     }
