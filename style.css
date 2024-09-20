@@ -192,7 +192,7 @@ a.link:hover{
 a.header_link:hover{
     border-bottom:  3px solid white;
 }
-.sect-padding-top{
+.services-section{
     padding-top: 60px;
 }
 .section {
@@ -429,19 +429,19 @@ img.portfolio {
     min-height: 390px;
     text-align: center;
 }
-.aa tr{
+.services-table tr{
     margin-right: 40px;;
     margin-top: 5px ;  
     margin-bottom: 5px;
     display: inline-block;
-    max-width: 40%;
+    max-width: 45%;
     min-height: 200px;
 
 }
 .need_help{
     font-weight: bold;
 }
-.aa td img{
+.services-table td img{
     width: 50px;
     height: 50px;
     margin-top: -10px;
@@ -452,7 +452,7 @@ img.portfolio {
 .portfolio_col tr p{
     text-align: left;
 }
-.aa tr p{
+.services-table tr p{
     text-align: left;
 }
 
@@ -468,7 +468,7 @@ img.portfolio {
     height: 80px;
     
 }
-/* .img_aa{
+/* .img_services-table{
     max-width: 150px;
     height: 80px;
 } */
@@ -511,7 +511,7 @@ img.portfolio {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .aa tr{
+    .services-table tr{
         max-width: 100%;
     }
     .service_tr{
@@ -673,7 +673,7 @@ img.portfolio {
     .portfolio_col tr{
         min-height: auto;
     }
-    .aa tr{
+    .services-table tr{
         min-height: auto;
     }
    .service-tech tr{
@@ -682,7 +682,7 @@ img.portfolio {
     .portfolio_col tr{
         max-width: 100%;
     }
-    .aa tr{
+    .services-table tr{
         max-width: 100%;
     }
     h1.portfolio{
