@@ -120,7 +120,9 @@ div.cover-contact a{
     margin-right: 10px;
     border-bottom:  3px solid var(--color1);
 }
-
+.header-expertise{
+    background-color: var(--color2);
+}
 .header_iframe{
     height: 80px;
 }
