@@ -43,6 +43,7 @@ body {
     font-family: Arial;
     line-height: 1.5;
 }
+
 .arrow_up{
     width: 40px;
     position: fixed;
@@ -239,17 +240,7 @@ a.header_link:hover{
 .expertise h3{
     margin-bottom: 5px;
 }
-/* div.section-grise1 {
-    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
-    background-color: var(--color2);
-    padding-bottom: 70px;
-}
 
-div.section-grise2 {
-    background: url(triangle1white.svg) no-repeat center top/100%;
-    background-color: var(--color2);
-    padding-top: 80px;
-} */
 
 h2 {
     font-size: 32px;
@@ -268,25 +259,6 @@ div.separator {
     left: 50%;
     margin-left: -75px;
 }
-
-/* div.section-grise1 p {
-    font-size: 22px;
-    color: #656565;
-    text-align: center;
-    max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.section-grise2 p {
-    font-size: 22px;
-    color: #656565;
-    text-align: center;
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 
 ul.contact-info li a{
     text-decoration: none;
@@ -471,14 +443,6 @@ img.portfolio {
     height: 80px;
     
 }
-/* .img_services-table{
-    max-width: 150px;
-    height: 80px;
-} */
-/* .section-content{
-    margin: auto; 
-    width: 80%;
-} */
 .pourquoi-consultant p{
     margin: 0px;
     padding-left: 10px;
@@ -505,9 +469,6 @@ img.portfolio {
 .col-conetenu-contact {
     width: 35%;
 }
-
-
-
 
 .certification-title {    
     font-weight: 300;
@@ -579,6 +540,9 @@ img.portfolio {
     border: 5px double;    
 }
 @media only screen and (max-width: 1235px) {
+    .cert-img{
+        display: none;
+    }
     .img-course{
         width: 100%;
     }
@@ -672,26 +636,11 @@ img.portfolio {
         padding-left: 20px;
         padding-right: 20px;
     }
-    /* .section-grise2 p {
-        width: 100%
 
-    } */
-    /* div.section-grise1 {
-        padding-bottom: 40px;
-    }
-    div.section-grise1 p{
-        text-align: left;
-    } */
     h2 {
         font-size: 30px;
     }
-/*     
-    div.col-contenu {
-        width: 100%;
-        padding-left: 0px;
-        margin-top: 20px;
-    } */
-   
+
     .col-portfolio {
         width: 100%;
         margin-bottom: 20px;
@@ -802,8 +751,8 @@ img.portfolio {
         max-width: 100%;
     }
     .fixed-top{
-        padding-left: 0px;
-        padding-right:0px;
+        padding-left: 20px;
+        padding-right:2px;
     }
 
 }
