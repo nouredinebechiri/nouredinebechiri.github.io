@@ -710,15 +710,7 @@ img.portfolio {
     .services-table tr{
         max-width: 100%;
     }
-    .services-table h3{
-        font-size: 18px;
-        
-    }
-    .services-table td img{
-        width: 35px;
-        height: 35px;
-       
-    }
+ 
     h1.portfolio{
         text-align: left;
     }
