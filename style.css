@@ -385,6 +385,7 @@ img.portfolio {
                    
 }
 
+
 .service-tech tr{
     margin-top: 15px;
     display: inline-block;
@@ -708,6 +709,10 @@ img.portfolio {
     }
     .services-table tr{
         max-width: 100%;
+    }
+    .services-table h3{
+        font-size: 20px;
+        
     }
     h1.portfolio{
         text-align: left;
