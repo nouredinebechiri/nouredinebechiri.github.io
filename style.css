@@ -235,6 +235,11 @@ a.header_link:hover{
    margin-bottom: 20px;
 }
 .expertise{
+    padding-left: 130px;
+    padding-right:130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: auto;
     background-color: var(--color2);
 }
 .expertise h3{
@@ -432,7 +437,7 @@ img.portfolio {
     text-align: left;
 }
 
-.img-serivce-tech{
+.img-expertise{
     width: 120px;
 }
 .img-course{
@@ -564,18 +569,18 @@ img.portfolio {
     .services-table tr{
         max-width: 100%;
     }
-    .service_tr{
+    .expertise-line{
         width: 100%; 
         
     }
     .service_td{         
         display: block;
     }
-    .img-serivce-tech{
+    .img-expertise{
         display: block;
         margin-left: auto;
         margin-right: auto;
-       
+        width: 100px;
     }
     .service-tech tr{
         margin-top: 15px;
@@ -741,29 +746,14 @@ img.portfolio {
     .col-conetenu-contact {
         width: 100%;
     }
-   /* .pourquoi-consultant p{
-        margin: 0px;
-        padding:0px;
-    }
-    .pourquoi-consultant h2{
-    margin: 0px;
-    padding: 0px;
-    }
-    .col-pourquoi-consultant {
-        width: 100%;
-    }
-    .col-pourquoi-consultant td{
-        width: 100%;
-        padding: 0px;
-    } */
-    .service_tr{
+    .expertise-line{
         width: 100%; 
         
     }
     .service_td{         
         display: block;
     }
-    .img-serivce-tech{
+    .img-expertise{
         display: block;
         margin-left: auto;
         margin-right: auto;
