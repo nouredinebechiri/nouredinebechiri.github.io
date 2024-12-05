@@ -444,7 +444,7 @@ img.portfolio {
     height: 80px;
     
 }
-.pourquoi-consultant p{
+/* .pourquoi-consultant p{
     margin: 0px;
     padding-left: 10px;
 }
@@ -463,14 +463,24 @@ img.portfolio {
     width: 49%;
     padding: 0px 10px 0px 10px;
     display: inline-block;
-  }
-.col-parcours-competences {
-    width: 55%;
+  } */
+.career-skills-div{
+    background-color: var(--color3); color: white;
 }
+.career-skills-div h2{
+    color: white;
+}
+.career-skills{
+    width: 55%;
+    display:inline-block;
+}
+
 .col-conetenu-contact {
     width: 35%;
 }
-
+.skills-list{
+    padding: 0px 0px 0px 20px;list-style: square;
+}
 .certification-title {    
     font-weight: 300;
     text-align: center;
@@ -572,7 +582,7 @@ img.portfolio {
         display: inline-block;
         max-width: 100%;
     }
-    .col-parcours-competences {
+    .career-skills {
         width: 100%;
         }
         .col-conetenu-contact {
@@ -722,13 +732,16 @@ img.portfolio {
     h1.portfolio{
         text-align: left;
     }
-   .col-parcours-competences {
+    .career-skills-div h2{
+        font-size: 26px;
+    }
+   .career-skills {
     width: 100%;
     }
     .col-conetenu-contact {
         width: 100%;
     }
-   .pourquoi-consultant p{
+   /* .pourquoi-consultant p{
         margin: 0px;
         padding:0px;
     }
@@ -742,7 +755,7 @@ img.portfolio {
     .col-pourquoi-consultant td{
         width: 100%;
         padding: 0px;
-    }
+    } */
     .service_tr{
         width: 100%; 
         
