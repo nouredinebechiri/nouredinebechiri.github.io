@@ -486,6 +486,12 @@ img.portfolio {
 .skills-list{
     padding: 0px 0px 0px 20px;list-style: square;
 }
+.certification{
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 40px;
+    
+}
 .certification-title {    
     font-weight: 300;
     text-align: center;
@@ -652,7 +658,11 @@ img.portfolio {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    .certification{
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
     h2 {
         font-size: 30px;
     }
