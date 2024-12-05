@@ -381,22 +381,22 @@ img.portfolio {
 .exchange-col{
     border-left: 4px solid rgb(16, 62, 116);  
 }
-.service-tech-col{
+.expertise-line-col{
     vertical-align: top;   
     padding-right: 5px;                
 }
-.service-tech-col h1{
+.expertise-line-col h1{
     background-color: #00188f;
                    
 }
 
 
-.service-tech tr{
+.expertise-line tr{
     margin-top: 15px;
     display: inline-block;
     max-width: 75%;
 }
-.service-tech h3{
+.expertise-line h3{
     font-size: 20px;
 }
 .vsphere h3{
@@ -582,7 +582,7 @@ img.portfolio {
         margin-right: auto;
         width: 100px;
     }
-    .service-tech tr{
+    .expertise-line tr{
         margin-top: 15px;
         display: inline-block;
         max-width: 100%;
@@ -716,7 +716,7 @@ img.portfolio {
     .services-table tr{
         min-height: auto;
     }
-   .service-tech tr{
+   .expertise-line tr{
         max-width: 100%;
     }
     .portfolio_col tr{
