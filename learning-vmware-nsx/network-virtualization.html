@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -11,38 +11,26 @@
     <div class="section">
         <a class="portfolio-back" href="introduction.html">Précédent</a>
         <a class="portfolio-back" href="nsx-version.html">Suivant</a>
-        
-        <table class="service-tech">
-            <tr class="service_tr"><td class="service_td"><img class="img-serivce-tech" src="../img/vmware-nsx.png" alt=""></td></tr>
-            <tr>
-                <td class="service-tech-col">
-                    <div style="border-left: 4px solid var(--veeam-col); margin-top: 20px;  " class="line-verticale"></div>
-                </td>
-                <td> 
-                    <h1>Network virtualization</h1>
-                    <p>Chapitre 1, virtualization du réseaux</p>
-                </td>
-            </tr>
-        </table>
+        <h1>Chapitre 1, Network virtualization</h1>
     </div>    
     <div class="section">      
         <p>Bienvenue dans un nouveau chapitre du cours <b>**Aprendre VMware NSX 4**</b>. Nous allons discuter d'un concept essentiel et fondamental : **la virtualisation réseau (Network Virtualization)**. Avant d'entrer dans le sujet, il est crucial que vous ayez une bonne compréhension de ce terme, car il s'agit d'un élément clé dans l'architecture moderne des réseaux.</p>
-        <h2>Historique de la virtualisation</h2>
+        <h3>Historique de la virtualisation</h2>
         <p>Pour bien comprendre la **virtualisation réseau**, il faut d'abord se rappeler comment la virtualisation des serveurs a révolutionné l'industrie il y a plus de 20 ans. Au départ, la **virtualisation des serveurs** visait à convertir des serveurs physiques en **machines virtuelles (VM)**, offrant ainsi les nombreux avantages que nous connaissons tous aujourd'hui : gain d'espace, réduction des coûts et amélioration de la flexibilité.</p>
-        <p>Si vous avez déjà suivi le **cours VMware vSphere**, vous vous rappelez probablement les premières séances où nous avons couvert les bases de la **technologie de virtualisation** et expliqué les différents types de virtualisation disponibles à l'époque.</p>
-        <h2>Les étapes du développement de la virtualisation</h2>
+       
+        <h3>Les étapes du développement de la virtualisation</h2>
         <p>Avec le succès de la **virtualisation des serveurs**, l'industrie a rapidement évolué vers la **virtualisation des applications** et des **bureaux (desktop virtualization)**. Cela a permis de créer des environnements où les utilisateurs n'avaient plus besoin de stocker des données localement, ni d'exécuter des applications directement sur leurs machines, tout étant centralisé sur des serveurs.</p>
         <p>Par exemple, la solution VMware Horizon a popularisé cette approche dans le domaine des bureaux virtuels.</p>
-        <h2>L'apparition de la virtualisation du stockage</h2>
+        <h3>L'apparition de la virtualisation du stockage</h2>
         <p>Un autre concept clé dans ce domaine est la **virtualisation du stockage (storage virtualization)**, qui permet de regrouper des disques locaux en un stockage partagé virtuel. Cette technologie a été adoptée par de nombreux fournisseurs, dont VMware avec **vSAN**. Elle permet d'utiliser les disques locaux sur différents serveurs pour créer une infrastructure de stockage partagée, sans avoir besoin d'acheter un SAN traditionnel.</p>
-        <h2>La révolution de la virtualisation réseau</h2>
+        <h3>La révolution de la virtualisation réseau</h2>
         <p>Nous arrivons maintenant au sujet principal : la **virtualisation réseau (Network Virtualization)**. Ce concept vise à réduire notre dépendance aux dispositifs matériels de réseau comme les routeurs, les pare-feu et les commutateurs physiques, en les remplaçant par des équivalents virtuels qui sont exécutés sous forme de **machines virtuelles**.</p>
         <p>Grâce à cette technologie, il devient possible de créer des réseaux complets, incluant des routeurs, des pare-feu, des VPN, des répartiteurs de charge, et bien plus encore, sans matériel physique.</p>
-        <h2>Défis et avantages de la virtualisation réseau</h2>
+        <h3>Défis et avantages de la virtualisation réseau</h2>
         <p>Un des grands défis de la **virtualisation réseau** est qu'elle nécessite une confiance totale dans les logiciels, car les appareils physiques que l'on pouvait toucher et configurer sont remplacés par des machines virtuelles. Cependant, cette approche apporte des avantages indéniables en termes de **flexibilité**, **évolutivité** et **réduction des coûts**. Au lieu d'attendre l'arrivée de nouveaux équipements matériels, vous pouvez déployer et configurer des appareils réseau virtuels en quelques minutes.</p>
-        <h2>Pourquoi VMware NSX est en tête du marché ?</h2>
+        <h3>Pourquoi VMware NSX est en tête du marché ?</h2>
         <p>VMware a été pionnière dans la virtualisation réseau avec son produit **NSX**, qui a connu un grand succès sur le marché. Cela s'explique notamment par la position dominante de VMware dans le secteur de la virtualisation de serveurs. Cisco, bien qu'un acteur majeur dans le matériel réseau, a pris du retard dans ce domaine, mais tente maintenant de rattraper avec des solutions comme **Cisco ACI**.</p>
-        <h2>Qui est responsable de la gestion de la virtualisation réseau ?</h2>
+        <h3>Qui est responsable de la gestion de la virtualisation réseau ?</h2>
         <p>L'une des questions fréquemment posées est : "Qui doit gérer la virtualisation réseau dans une entreprise ? L'équipe réseau ou l'équipe systèmes ?" </p>
         <p>La réponse dépend souvent de l'organisation de l'entreprise, mais dans la plupart des cas, c'est l'équipe systèmes (généralement en charge de VMware) qui prend en charge cette tâche. Cela est dû au fait que la virtualisation réseau fait partie intégrante de l'infrastructure virtuelle globale, qui inclut les serveurs et les machines virtuelles.</p>
         <p>Cependant, la gestion des protocoles réseau comme **BGP** ou **OSPF** peut nécessiter une collaboration avec l'équipe réseau, surtout si des configurations complexes sont requises.</p>
