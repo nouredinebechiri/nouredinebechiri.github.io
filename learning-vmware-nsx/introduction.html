@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intoduction à VMware NSX</title>
+    <title>Apprendre VMware NSX - Introduction</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
-<body> 
-    <div class="section">
+<body>
+
+    <iframe class="header_iframe" src="header.html"></iframe>      
+    <div class="section header-expertise">
+
         <a class="portfolio-back" href="network-virtualization.html">Suivant</a>
-        <h1>Introduction</h1>
-        <p>Bienvenue à l’introduction du cours <b>**Apprendre VMware NSX 4**</b>.Ce cours est la transcription d'une formation vidéo réalisée en langue arabe par Monsieur <a href="https://www.youtube.com/playlist?list=PL0JJEZVyuH_9LzITuSl3UmVYWANPw6cjT">Ebrahim Aldesouky Almehsnawy</a>, que j'ai trouvée très bien conçue et riche en informations. Étant donné que la formation est en arabe, j'ai décidé de la traduire en français afin que les francophones puissent en bénéficier, surtout face au manque de cours gratuits sur NSX. L'explication du cours se fera en français, mais j'utiliserai les termes techniques en anglais, car la majorité des documentations en ligne est en anglais, cela vous aidera à mieux effectuer vos recherches et à résoudre d'éventuels problèmes. J'ai bien sûr adapté le contenu à l'écrit et j'y ajouterai également mon expérience personnelle. Comme le cours est désormais sous forme écrite, il est aussi facile à traduire vers d'autres langues.</p>     
-    </div>    
+        <table class="expertise-line">
+            <tr class="service_tr"><td class="service_td"><img class="img-expertise" src="../img/vmware-nsx.png" alt=""></td></tr>
+            <tr>
+                <td class="expertise-line-col">
+                    <div style="border-left: 4px solid var(--color4); margin-top: 20px;  " class="line-verticale"></div>
+                </td>
+                <td>
+                    <h1 class="portfolio" style="color: var(--color4);">Introduction</h1>
+                    <p>Bienvenue à l’introduction du cours <b>**Apprendre VMware NSX 4**</b>.Ce cours est la transcription d'une formation vidéo réalisée en langue arabe par Monsieur <a href="https://www.youtube.com/playlist?list=PL0JJEZVyuH_9LzITuSl3UmVYWANPw6cjT">Ebrahim Aldesouky Almehsnawy</a>, que j'ai trouvée très bien conçue et riche en informations. Étant donné que la formation est en arabe, j'ai décidé de la traduire en français afin que les francophones puissent en bénéficier, surtout face au manque de cours gratuits sur NSX. L'explication du cours se fera en français, mais j'utiliserai les termes techniques en anglais, car la majorité des documentations en ligne est en anglais, cela vous aidera à mieux effectuer vos recherches et à résoudre d'éventuels problèmes. J'ai bien sûr adapté le contenu à l'écrit et j'y ajouterai également mon expérience personnelle. Comme le cours est désormais sous forme écrite, il est aussi facile à traduire vers d'autres langues.</p>
+                </td>
+            </tr>
+        </table>
+    </div>      
+    
     <div class="section">            
         <p>Le sujet NSX est devenu très courant ces derniers temps, même si c'est un produit relativement nouveau chez VMware, il a suscité beaucoup d'intérêt ces derniers temps. VMware elle-même s'intéresse beaucoup à NSX et le met en avant dans ses campagnes marketing. Honnêtement, c'est un excellent produit et il est devenu très demandé, notamment par les grandes entreprises et les multinationales en particulier. Jusqu'à maintenant, il y a une pénurie de personnes capables de travailler sur NSX, ce qui en fait un sujet très utile à maîtriser. Par exemple, après avoir étudié VMware vSphere, vous pourrez vous spécialiser sur NSX.</p>
         <p>Nous allons bien sûr expliquer ce qu'est NSX, son évolution et son concept. Nous expliquerons bien sûr l'aspect théorique et nous ferons des démonstrations pratiques qu’on va illustrer par des captures d’écran. Un chapitre à venir expliquera les différentes méthodes pour mettre en place des laboratoires NSX avec toutes les options disponibles.</p>
@@ -22,10 +36,15 @@
         <p>Le point le plus important, notamment en ce qui concerne VMware en général et NSX en particulier, est de mettre en pratique ce que vous apprenez. Nous vous expliquerons les méthodes pour pratiquer sur les laboratoires, car sans cela, vous risquez d'oublier ce que vous avez entendu. Appliquer les laboratoires une fois, deux fois, voire trois fois est indispensable pour ne pas oublier ce que vous avez appris. Cela permet aussi de soulever des questions que vous ne découvrirez qu'en pratiquant. Ainsi, la pratique est un élément essentiel pour nous.</p>
         <p>L'image <a href="img/introduction.png">suivante </a> illustre les principales fonctionnalités de NSX que nous allons aborder. Ce sont des éléments que vous devez maîtriser parfaitement, à la fois théoriquement et pratiquement. Vous ne pouvez pas prétendre être compétent sur NSX si vous ne pouvez pas répondre à ces questions de base. Ces points doivent être gravés dans votre esprit pour que vous puissiez dire "j'ai bien maîtrisé NSX". Ce sont les sujets fondamentaux que nous allons couvrir tout au long du cours. Certains sujets pourront être traités en un seul chapitre, tandis que d'autres nécessiteront plusieurs.</p>        
         <p>Nous expliquons NSX version 4. Actuellement, la version que nous utilisons pour la démonstration est la "4.1.0". Il n'y a pas de différences majeures entre les versions, mais certaines fonctionnalités peuvent être nouvelles dans chaque version. Parfois, je vous dirai de faire attention à certaines fonctionnalités qui ont été introduites dans telle ou telle version. Bien que certaines mises à jour ne soient que des correctifs, d'autres versions apportent de nouvelles fonctionnalités très utiles. Il est donc essentiel de comprendre ces évolutions pour bien utiliser NSX.</p>
+        
+    </div>
+
+
+    <div class="section header-expertise">
         <p>À partir du prochain chapitre, nous commencerons à aborder les sujets de manière plus approfondie concernant NSX. Nous partirons de zéro, donc il n'est pas nécessaire que vous ayez des connaissances préalables en virtualisation réseau ou en NSX. Merci à tous et à bientôt.</p>
         <a class="portfolio-back" href="network-virtualization.html">Suivant</a>
     </div>
-    
-    <iframe src="../copyright.html" scrolling="no"/>  
+
+    <iframe src="copyright.html" scrolling="no"/>  
 </body>
 </html>
