@@ -574,9 +574,8 @@ img.portfolio {
     .services-table tr{
         max-width: 100%;
     }
-    .expertise-line{
+    .expertise-line tr{
         width: 100%; 
-        
     }
     .service_td{         
         display: block;
