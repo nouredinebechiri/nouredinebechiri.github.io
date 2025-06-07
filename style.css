@@ -61,7 +61,17 @@ iframe {
     height: 50px;
     margin: 0px;
 }
+.lang-link{
+    color: rgb(212, 193, 193);
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
 
+.lang-link:hover{
+    color:white;
+    text-decoration: none;
+}
 div.cover {
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover.jpg) no-repeat center/cover;
     min-height: 400px;
@@ -158,10 +168,10 @@ div.cover-contact * {
 a.contact-button {
     color:var(--color1);
     border: 3px solid var(--color1);
-    padding: 8px 20px;
+    padding: 5px 12px;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
 }
 a.contact-button2 {
     color:white;
@@ -601,7 +611,9 @@ img.portfolio {
 }
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
-    
+    .contact-button{
+        margin-top: 4px;
+    }
     .img-portfolio-header{
         display: block;
         margin-bottom: 10px;
