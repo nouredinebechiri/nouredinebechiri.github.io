@@ -135,7 +135,8 @@ div.cover-contact a{
     background-color: var(--color2);
 }
 .header_iframe{
-    height: 80px;
+    height: 60px;
+    
 }
 .header_img{
     width: 40px;    
@@ -571,9 +572,7 @@ img.portfolio {
     border: 5px double;    
 }
 @media only screen and (max-width: 1235px) {
-    .cert-img{
-        display: none;
-    }
+    
     .img-course{
         width: 100%;
     }
@@ -611,6 +610,22 @@ img.portfolio {
 }
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
+    .carousel .testimonial {
+    padding: 0px ;
+    position: relative;
+}
+.carousel .testimonial::before {
+    content: "";
+    font-family: Arial,sans-serif;
+    color: #e2e2e2;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
     .contact-button{
         margin-top: 4px;
     }
