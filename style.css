@@ -582,6 +582,9 @@ img.portfolio {
                 min-width: 300px;
                 padding: 40px;
                 }
+                .column h1{
+                    font-weight: bold;
+                }
 
                 .left {
                 background-color: #f0f8ff;
@@ -645,6 +648,7 @@ img.portfolio {
     .services-table tr{
         max-width: 100%;
     }
+
     .expertise-line tr{
         width: 100%; 
     }
