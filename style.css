@@ -420,15 +420,20 @@ img.portfolio {
     min-height: 390px;
     text-align: center;
 }
+
+/*  services  main section */
 .services-table tr{
     margin-right: 40px;;
     margin-top: 5px ;  
     margin-bottom: 5px;
     display: inline-block;
     max-width: 45%;
-   
-
 }
+.help_categroies{
+    max-width: 380px;
+    margin: auto;
+}
+
 .need_help{
     font-weight: bold;
 }
@@ -439,6 +444,7 @@ img.portfolio {
     margin-right: 10px;
     float: left;
 }
+/*  services main section END    */
 
 .portfolio_col tr p{
     text-align: left;
