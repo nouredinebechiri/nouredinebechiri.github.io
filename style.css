@@ -886,4 +886,7 @@ img.portfolio {
         padding-right:2px;
     }
 
+    .credly{
+    width: 100px; float: right;
+    }
 }
