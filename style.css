@@ -483,6 +483,9 @@ img.portfolio {
 .skills-list{
     padding: 0px 0px 0px 20px;list-style: square;
 }
+.credly{
+    width: 150px; float: right;
+}
 .certification{
     padding-left: 200px;
     padding-right:200px;
