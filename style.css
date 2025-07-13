@@ -391,18 +391,24 @@ img.portfolio {
 }
 .expertise-line-col{
     vertical-align: top;   
-    padding-right: 5px;                
+    padding-right: 5px;    
+    vertical-align: text-top;            
 }
-.expertise-line-col h1{
-    background-color: #00188f;
-                   
-}
+
 
 .expertise-line tr{
     margin-top: 15px;
     display: inline-block;
     max-width: 90%;
 }
+.expertise-line td h1{
+    display: inline;
+}
+.expertise-line td{
+    vertical-align: top;
+}
+
+
 .expertise-line h3{
     font-size: 20px;
 }
@@ -662,10 +668,10 @@ color: #333;
    
     }
 }
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1490px) {
    .section {
-        padding-left: 150px;
-        padding-right:150px;
+        padding-left: 200px;
+        padding-right:200px;
       
     }
     .section-2 {
@@ -675,8 +681,6 @@ color: #333;
     }
 }
 @media only screen and (max-width: 1300px) {
-
-    
     
     .img-course{
         width: 100%;
@@ -695,9 +699,7 @@ color: #333;
     .service_td{         
         display: block;
     }
-    .img-expertise{
-        
-    }
+
     .expertise-line tr{
         margin-top: 15px;
         display: inline-block;
@@ -706,23 +708,23 @@ color: #333;
     .career-skills {
         width: 100%;
         }
-        .col-conetenu-contact {
-            width: 100%;
-        }
+    .col-conetenu-contact {
+        width: 100%;
+    }
 
     .tfc {
-            padding: 0px;
+        padding: 0px;
+        
+        }
+        .container {
             
-            }
-            .container {
-                
-                margin: 0px auto;
-                
-            }
+            margin: 0px auto;
+            
+        }
 
-            .container {
-                flex-direction: column;
-            }
+        .container {
+            flex-direction: column;
+        }
     .carousel .testimonial {
     padding: 0px ;
     position: relative;
@@ -907,9 +909,10 @@ color: #333;
         margin-left: auto;
         margin-right: auto;
         width: 60px;
-    margin-top: 0px;
+        margin-top: 0px;
        
     }
+   
     
     .img_vmware_col{
         max-width: 100%;
@@ -945,5 +948,6 @@ color: #333;
         padding-right:15px;
    
     }
+
 
 }
