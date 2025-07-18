@@ -407,7 +407,10 @@ img.portfolio {
 .expertise-line td{
     vertical-align: top;
 }
-
+.project-title{
+    width: 670px;
+   
+}
 
 .expertise-line h3{
     font-size: 20px;
