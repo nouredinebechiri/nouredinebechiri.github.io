@@ -399,7 +399,7 @@ img.portfolio {
 .expertise-line tr{
     margin-top: 15px;
     display: inline-block;
-    max-width: 90%;
+    
 }
 .expertise-line td h1{
     display: inline;
@@ -408,8 +408,7 @@ img.portfolio {
     vertical-align: top;
 }
 .project-title{
-    width: 670px;
-   
+    max-width: 800px;   
 }
 
 .expertise-line h3{
