@@ -241,6 +241,10 @@ a.header_link:hover{
    
 }
 
+.overview_cat_img{
+         display: none;
+    }
+
 
 .service_title{
    margin-bottom: 20px;
@@ -427,17 +431,21 @@ img.portfolio {
 }
 
 /*  services  main section */
-.services-table tr{
-    margin-right: 40px;;
-    margin-top: 5px ;  
-    margin-bottom: 5px;
+.services-table tr{  
+    
     display: inline-block;
-    max-width: 45%;
+    max-width:48%;
 }
-.help_categroies{
+.services-table td{ 
+   vertical-align: top;
+    padding: 5px;
+}
+.overview_cat {
    
     text-align: center;
 }
+
+
 
 .need_help{
     font-weight: bold;
@@ -950,6 +958,8 @@ color: #333;
         padding-right:15px;
    
     }
-
+    .overview_cat_img{
+        display: none;
+    }
 
 }
