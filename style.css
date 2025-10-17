@@ -435,7 +435,7 @@ img.portfolio {
     
     display: inline-block;
     max-width:48%;
-    height: 340px;
+    min-height: 340px;
     margin-top: 30px;
 }
 .services-table tr p{  
