@@ -140,11 +140,14 @@ galleryData.forEach(item => {
                 <br>
                 <a data-lang="fr" href="#">${item.link_fr}</a>
                 <a data-lang="en" style="display:none" href="#">${item.link_en}</a>
+            </div>
+        </div>
+
+        <div class="gallery-item"> 
+            <div class="text-wrapper">
                 <p data-lang="fr">${item.desc_fr}</p>
                 <p data-lang="en" style="display:none">${item.desc_en}</p>
-                
             </div>
-            
         </div>
     `;
 
