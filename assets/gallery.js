@@ -28,8 +28,8 @@ const galleryData = [
         title_en: "Network Virtualization (SDN)",
         link_fr: "VMware NSX",
         link_en: "VMware NSX",
-        desc_fr: "Une plateforme de virtualisation réseau permettant de créer et sécuriser l’infrastructure...",
-        desc_en: "A network virtualization platform that enables dynamic creation and security..."
+        desc_fr: "Une plateforme de virtualisation réseau qui permet de créer, gérer et sécuriser dynamiquement l’infrastructure réseau de votre datacenter, entièrement depuis le logiciel, sans dépendre du matériel physique.",
+        desc_en: "A network virtualization platform that enables dynamic creation, management, and security of your datacenter network infrastructure entirely through software, without relying on physical hardware."
     },
     {
         img: "img/ad.jpg",
@@ -78,7 +78,7 @@ const galleryData = [
         title_en: "Network Architecture Design",
         link_fr: "CISCO",
         link_en: "CISCO",
-        desc_fr: "Une plateforme de communication unifiée pour faciliter la collaboration à distance, améliorer les échanges internes et connecter les équipes. Elle permet de passer des appels audio/vidéo, organiser des réunions en ligne, discuter par messagerie instantanée et partager des documents en temps réel.",
+        desc_fr: "Les solutions Cisco permettent de construire une infrastructure réseau robuste, évolutive et sécurisée, adaptée aux environnements professionnels les plus exigeants. Cisco offre une connectivité fiable et une gestion fine du trafic réseau.",
         desc_en: "Cisco solutions enable the construction of a robust, scalable, and secure network infrastructure, tailored to demanding professional environments, providing reliable connectivity and fine-grained network traffic management."
     },
     {
@@ -108,7 +108,7 @@ const galleryData = [
         title_en: "IT Infrastructure Monitoring",
         link_fr: "ZABBIX",
         link_en: "ZABBIX",
-        desc_fr: "Une solution de protection des données moderne, conçue pour assurer la disponibilité permanente de vos machines virtuelles, serveurs physiques et environnements cloud. Elle permet de sauvegarder, répliquer et restaurer rapidement vos systèmes en cas d’incident, avec une grande simplicité d’administration.",
+        desc_fr: "Une solution de supervision open source conçue pour surveiller en continu l’état de santé de vos systèmes, équipements réseau et services applicatifs. Grâce à son interface centralisée, Zabbix offre une visibilité complète et proactive sur l’ensemble de votre infrastructure IT.",
         desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services. With its centralized interface, Zabbix provides complete and proactive visibility across your entire IT infrastructure."
     },
     {
@@ -118,7 +118,7 @@ const galleryData = [
         title_en: "IT Asset Management",
         link_fr: "GLPI",
         link_en: "GLPI",
-        desc_fr: "An open-source solution that efficiently manages IT equipment, software, users, and support requests, centralizing all information related to your IT infrastructure in a single, intuitive, and customizable interface.",
+        desc_fr: "",
         desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services. With its centralized interface, Zabbix provides complete and proactive visibility across your entire IT infrastructure."
     }
     // Ajouter ici les autres éléments identiquement
