@@ -32,7 +32,7 @@ const galleryData = [
         desc_en: "A network virtualization platform that enables dynamic creation, management, and security of your datacenter network infrastructure entirely through software, without relying on physical hardware."
     },
     {
-        img: "img/ad.jpg",
+        img: "img/ad.png",
         alt: "Microsoft Active Directory",
         title_fr: "Gestion centralisée des accès",
         title_en: "Centralized Access Management",
@@ -72,7 +72,7 @@ const galleryData = [
         desc_en: "A unified communication platform that facilitates remote collaboration, enhances internal communication, and connects teams, enabling audio/video calls, online meetings, instant messaging, and real-time document sharing."
     },
     {
-        img: "img/cisco.jpg",
+        img: "img/cisco.png",
         alt: "CISCO",
         title_fr: "Conception de l'architecture Réseau",
         title_en: "Network Architecture Design",
@@ -102,7 +102,7 @@ const galleryData = [
         desc_en: "A modern data protection solution designed to ensure continuous availability of virtual machines, physical servers, and cloud environments, enabling fast backup, replication, and restoration of systems with easy administration."
     },
     {
-        img: "img/zabbix.jpg",
+        img: "img/zabbix.png",
         alt: "ZABBIX",
         title_fr: "Supervision de l'infrastructure IT",
         title_en: "IT Infrastructure Monitoring",
@@ -118,7 +118,7 @@ const galleryData = [
         title_en: "IT Asset Management",
         link_fr: "GLPI",
         link_en: "GLPI",
-        desc_fr: "",
+        desc_fr: "Une solution open source permettant de gérer efficacement les équipements informatiques, les logiciels, les utilisateurs et les demandes de support. Elle centralise toutes les informations liées à votre infrastructure IT dans une interface unique, intuitive et personnalisable.",
         desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services. With its centralized interface, Zabbix provides complete and proactive visibility across your entire IT infrastructure."
     }
     // Ajouter ici les autres éléments identiquement
