@@ -2,11 +2,10 @@
 --link:#1c47e3;
 }
 /* CONTAINER */
+
 .carousel {
     max-width: 800px;
     margin: 0px auto;
-    background: #fff;
-    border-radius: 16px;
     /* box-shadow: 0 10px 30px rgba(0,0,0,0.15); */
     padding: 40px 0 50px;
     position: relative;

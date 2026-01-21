@@ -228,8 +228,9 @@ flex-direction:row;
 gap:40px;
 align-items:center;
 }
-.career-shadow{
+.career-content{
     border-radius: 2px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-color: var(--telegram-fc);
 }
 .career{
     background-color: var(--career);
@@ -239,11 +240,14 @@ align-items:center;
 .career-image{flex:1}
 .tfc-text{
     flex:1; text-align: center;
-    background-color: var(--telegram-fc);
     padding: 60px 0px 60px 0px;
 }
 .tfc-text img{ width: 80px;}
-.tfc-image{flex:1; padding: 10px 20px 10px 20px;}
+.tfc-image{
+    flex:1; 
+    padding: 30px;
+    background-color: white;
+}
 .career-image img{width:100%;border-radius:0px}
 
 /* FOOTER */
@@ -357,4 +361,5 @@ display: none;
 }
 .career-section{
     background-color: var(--gallery);
+    
 }
