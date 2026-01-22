@@ -6,7 +6,7 @@
 --primary:#01b289;
 --card:#f6f6f6;
 --border:#e2e2e2;
---career:#01b289;
+--career:#70b3c4;
 --gallery:#f4f4f4;
 --telegram-btn:#006f99;
 --telegram-fc:#f0f8ff;
@@ -143,6 +143,10 @@ display:grid;
 grid-template-columns:repeat(2,1fr);
 gap:30px
 }
+.skills-icon{
+    width: 60px;
+    margin: auto;
+}
 .skill-card{
 /* background:var(--card); */
 padding:15px;
@@ -238,6 +242,8 @@ align-items:center;
 }
 .career-text{flex:1.5}
 .career-image{flex:1}
+.career-image a{color: white;   
+}
 .tfc-text{
     flex:1; text-align: center;
     padding: 60px 0px 60px 0px;
