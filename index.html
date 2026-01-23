@@ -15,7 +15,7 @@
 
 <nav id="nav">
     <div class="nav-inner">
-    <strong style="color:#fff">Nouredine Bechiri <span class="lang-toggle" id="lang-toggle"></span></strong> 
+    <strong class="nb-logo-text">Nouredine Bechiri <span class="lang-toggle" id="lang-toggle"></span></strong> 
     <div class="hamburger" onclick="toggleMenu()">
         <span></span>
         <span></span>
@@ -223,8 +223,8 @@ function updateFlag(){
 const frVisible=document.querySelector('[data-lang="fr"]').style.display!=='none';
 document.getElementById('lang-toggle').innerHTML=
 frVisible
-?'<img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" onclick="setLang(`en`)">'
-:'<img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" onclick="setLang(`fr`)">';
+?'<img src="img/uk.png" onclick="setLang(`en`)">'
+:'<img src="img/fra.png" onclick="setLang(`fr`)">';
 }
 
 function setLang(lang){
