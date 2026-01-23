@@ -61,7 +61,9 @@ text-decoration:none;
 margin-left:22px;
 font-size:14px
 }
-.lang-toggle img{width:24px;cursor:pointer;margin-left:10px}
+.lang-toggle img{height:24px;cursor:pointer;margin-left:10px;
+vertical-align: middle;
+}
 
 /* HAMBURGER BUTTON */
 .hamburger{
@@ -310,6 +312,9 @@ display: none;
 
 
 /*My CSS*/
+.nb-logo-text{
+    color: white;
+}
 .center{
     text-align: center;
 }
