@@ -17,12 +17,19 @@
             "img/ummto.jpg"
         ];
 
-        const titres = [
+        const titres_fr = [
             "VMware Certified Professional - Data Center Virtualization",
             "VMware Certified Specialist - vSAN",
             "VMware Certified Professional - Network Virtualization",
-            "Master en réseaux, Mobilités et Systèmes Embarqués",
+            "Master en Réseaux, Mobilités et Systèmes Embarqués",
             "Licence en Informatique"
+        ];
+         const titres_en = [
+            "VMware Certified Professional - Data Center Virtualization",
+            "VMware Certified Specialist - vSAN",
+            "VMware Certified Professional - Network Virtualization",
+            "Master’s Degree in Networks, Mobility, and Embedded Systems",
+            "Bachelor’s Degree in Computer Science"
         ];
         const certificatUrl =[
             "https://cp.certmetrics.com/vmware/en/public/verify/credential/5fbd473a41144071a71f249fd17191d5",
@@ -85,11 +92,16 @@
             slide.style.visibility = "hidden"; // invisible avant positionnement
 
             slide.innerHTML = `
-                <img src="${images[i]}" alt="${titres[i]}">
-                <h3><a href="${certificatUrl[i]}" target="_blank">${titres[i]}</a></h3>
-                <p data-lang="fr">${desc_fr[i]}</p>
-                <p data-lang="en" style="display:none">${desc_en[i]}</p>
-                <p><span data-lang="fr">Livrée par </span> <span data-lang="en" style="display:none">Issued by </span><a href="${organizationUrl[i]}">${organization[i]}</a>, <span data-lang="fr">${organizationType_fr[i]}</span> <span data-lang="en" style="display:none">${organizationType_en[i]}</span></p>
+                <img src="${images[i]}" alt="Logo">
+                <h3>
+                    <a href="${certificatUrl[i]}" target="_blank">
+                        <span data-lang="fr">${titres_fr[i]}</span>
+                        <span data-lang="en" style="display:none">${titres_en[i]}</span>
+                    </a>
+                </h3>
+                <p data-lang="fr" class="quote">${desc_fr[i]}</p>
+                <p data-lang="en" class="quote" style="display:none">${desc_en[i]}</p>
+                <p><span data-lang="fr">Livrée par </span> <span data-lang="en" style="display:none">Issued by </span><a href="${organizationUrl[i]}" target="_blank">${organization[i]}</a>, <span data-lang="fr">${organizationType_fr[i]}</span> <span data-lang="en" style="display:none">${organizationType_en[i]}</span></p>
             `;
             track.appendChild(slide);
             slides.push(slide);
