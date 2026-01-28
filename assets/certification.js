@@ -25,9 +25,9 @@
             "Licence en Informatique"
         ];
         const certificatUrl =[
-            "https://www.credly.com/badges/5e422816-97f2-4b62-9fa5-20b9932ca45b/",
+            "https://cp.certmetrics.com/vmware/en/public/verify/credential/5fbd473a41144071a71f249fd17191d5",
             "https://www.credly.com/badges/31e784ea-5f05-406a-85a2-59984374593e",
-            "https://www.credly.com/badges/436ada9d-36d8-42b3-ac69-07742e95b638",
+            "https://cp.certmetrics.com/vmware/en/public/verify/credential/f8588ad4c9c148b7bf992e5cd71a3dc7",
             "#certifications",
             "#certifications"
         ]
@@ -86,7 +86,7 @@
 
             slide.innerHTML = `
                 <img src="${images[i]}" alt="${titres[i]}">
-                <h3><a href="${certificatUrl[i]}">${titres[i]}</a></h3>
+                <h3><a href="${certificatUrl[i]}" target="_blank">${titres[i]}</a></h3>
                 <p data-lang="fr">${desc_fr[i]}</p>
                 <p data-lang="en" style="display:none">${desc_en[i]}</p>
                 <p><span data-lang="fr">Livrée par </span> <span data-lang="en" style="display:none">Issued by </span><a href="${organizationUrl[i]}">${organization[i]}</a>, <span data-lang="fr">${organizationType_fr[i]}</span> <span data-lang="en" style="display:none">${organizationType_en[i]}</span></p>
