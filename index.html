@@ -9,37 +9,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
-      <link rel="stylesheet" href="assets/certifications.css">
+    <link rel="stylesheet" href="assets/certifications.css">
 </head>
 <body>
 
 <nav id="nav">
     <div class="nav-inner">
-    <strong class="nb-logo-text">Nouredine Bechiri <span class="lang-toggle" id="lang-toggle"></span></strong> 
-    <div class="hamburger" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div class="menu">
+
+        <div style="display:flex;align-items:center;gap:8px;">
+                <span><img class="nb-logo" src="img/nb-wite.png" alt=""></span>
+                <strong class="nb-logo-text">Nouredine Bechiri </strong>
+        </div>
         
-        <a href="#skills" data-lang="fr">Compétences</a>
-        <a href="#carousel" data-lang="fr">Certifications</a>
-        <a href="#gallery" data-lang="fr">Expertise</a>
-        <a href="#career" data-lang="fr">Parcours</a>
-        <a href="#contacts" data-lang="fr">Contacts</a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         
-        <a href="#skills" data-lang="en" style="display:none">Skills</a>
-        <a href="#carousel" data-lang="en" style="display:none">Certifications</a>
-        <a href="#gallery" data-lang="en" style="display:none">Expertise</a>
-        <a href="#career" data-lang="en" style="display:none">Career</a>
-        <a href="#contacts" data-lang="en" style="display:none">Contacts</a>
-    </div>
+        <div class="menu">           
+            <a href="#skills" data-lang="fr">Compétences</a>
+            <a href="#carousel" data-lang="fr">Certifications</a>
+            <a href="#gallery" data-lang="fr">Expertise</a>
+            <a href="#career" data-lang="fr">Parcours</a>
+            <a href="#contacts" data-lang="fr">Contacts</a>
+            
+            <a href="#skills" data-lang="en" style="display:none">Skills</a>
+            <a href="#carousel" data-lang="en" style="display:none">Certifications</a>
+            <a href="#gallery" data-lang="en" style="display:none">Expertise</a>
+            <a href="#career" data-lang="en" style="display:none">Career</a>
+            <a href="#contacts" data-lang="en" style="display:none">Contacts</a>
+        </div>
     </div>
 </nav>
 <header class="hero">
+        
     <div class="container">
+       
         <img src="img/profile.png" alt="Nouredine Bechiri">
+        
         <h1 data-lang="fr">Ingénieur Systèmes & Réseaux</h1>
         <h1 data-lang="en" style="display:none">IT Systems & Network Engineer</h1>
         <p data-lang="fr">Infrastructure Physique ou Virtuelle</p>
@@ -50,7 +58,7 @@
         
     </div>
 </header>
-
+ <span class="lang-toggle" id="lang-toggle"></span>
 <section id="presentation">
     <div class="container reveal presentation">
         <h2 class="section-title" data-lang="fr">Besoin d'aide ? <span>Digitalisation, Cybersécurité, Conseil</span></h2>
@@ -64,12 +72,14 @@
             </p>
         </div>
         <div class="ligne"></div>
+        
         <div id="about-me">
             <p data-lang="fr">Je suis ingénieur en informatique, spécialisé dans la conception et l'architecture de systèmes et réseaux informatiques. Mon expérience me permet de mettre en œuvre des solutions techniques sur mesure adaptées aux besoins des entreprises.</p>
             <p data-lang="en" style="display:none">I am a computer engineer specialized in the design and architecture of IT systems and networks. My experience allows me to implement customized technical solutions tailored to the needs of businesses.</p>
             <a data-lang="fr"  class="about-me-btn" href="#career">Me connaitre d'avantage</a>
             <a data-lang="en" style="display:none" class="about-me-btn" href="#career">Learn more about me</a>
         </div>
+
     </div>
 </section>
 
@@ -186,6 +196,7 @@
             </div>
             <div id="contacts" class="career-image reveal">
                 <img src="img/profile2.jpg" alt="Parcours Image">
+                
                 <u class="career-contact">                
                     <li data-lang="fr">Algérien, 37 ans</li>
                     <li data-lang="en" style="display:none">Algerian, 37 years old</li>
@@ -194,7 +205,7 @@
 
                     <li data-lang="fr" class="social-media-li">Souhaitez-vous en savoir plus sur moi ?</li>
                     <li data-lang="en" style="display:none" class="social-media-li">Want to know more about me?</li>
-
+                        
                     <li class="social-media-icon">
                         <a href="https://www.linkedin.com/in/nouredinebechiri/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
                         <a href="https://x.com/nobechiri" target="_blank"><img src="img/x.png" alt="X"></a>
@@ -208,8 +219,11 @@
 </section>
 
 <footer>
-    <span data-lang="fr">Nouredine BECHIRI © Tous droits réservés</span>
-    <span data-lang="en" style="display:none">Nouredine BECHIRI © All rights reserved</span>
+    <div class="container" style="display:flex;align-items:center;gap:8px;">
+        <img class="nb-logo" src="img/nb-wite.png" alt="">
+        <span data-lang="fr">Nouredine BECHIRI © Tous droits réservés</span>
+        <span data-lang="en" style="display:none">Nouredine BECHIRI © All rights reserved</span>
+    </div>
 </footer>
 
 <script>
