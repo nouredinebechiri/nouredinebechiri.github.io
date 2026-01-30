@@ -22,6 +22,10 @@ body{
     color:var(--text);
     line-height:1.65;
 }
+.nb-logo{
+    width: 40px;
+    height: 40px;
+}
 a{text-decoration: none;color:var(--link);}
 a:hover{text-decoration: underline;}
 section{padding:40px 10px}
@@ -61,8 +65,13 @@ text-decoration:none;
 margin-left:22px;
 font-size:14px
 }
-.lang-toggle img{height:24px;cursor:pointer;margin-left:10px;
-vertical-align: middle;
+.lang-toggle img{
+    position: absolute;
+    top: 170PX;
+    right: 30px;
+    width: 30px;
+    cursor:pointer;
+    vertical-align: middle;
 }
 
 /* HAMBURGER BUTTON */
@@ -346,8 +355,8 @@ align-items:center;
 footer{
 background:#000;
 color:#777;
-text-align:center;
-padding:24px;
+
+padding:20px;
 font-size:14px
 }
 
@@ -424,6 +433,7 @@ display: none;
 
 /*My CSS*/
 .nb-logo-text{
+    font-size: 18px;
     color: white;
 }
 .center{
