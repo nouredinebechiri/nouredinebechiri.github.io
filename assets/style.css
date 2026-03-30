@@ -112,7 +112,7 @@ margin:14px 0;
 
 /* HERO */
 .hero{
-min-height:50vh;
+min-height:70vh;
 background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("../img/cover.jpg") center/cover no-repeat;
 display:flex;
 align-items:center;
@@ -135,6 +135,48 @@ width:120px;
 border-radius:50%;
 border:3px solid #fff;
 margin-bottom:20px
+}
+
+.icon-list {
+      display: flex;           /* met les éléments en ligne */
+      gap: 30px;               /* espace entre les items */
+      list-style: none;
+      padding: 0;
+      margin: 20px;
+    }
+
+    .icon-list li {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+    }
+
+    .icon-list i {
+      margin-right: 8px;
+      font-size: 22px;
+    }
+
+    .linkedin i {
+      color: white;
+    }
+
+    .email i {
+      color: white;
+    }
+
+    .telegram i {
+      color: white;
+    }
+    .icon-list a {
+      text-decoration: none;
+      color: white;
+    }
+    .icon-list a:hover{
+      text-decoration: underline;
+    }
+
+.header-contact-list img{
+    width: 40px;
 }
 @keyframes fadeHero{
 from{opacity:0;transform:translateY(30px)}
