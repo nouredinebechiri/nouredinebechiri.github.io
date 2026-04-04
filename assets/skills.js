@@ -62,10 +62,10 @@ skillsData.forEach(skill => {
     let content = `
         <div class="skills-icon"><img class="skills-icon" src="${skill.icon}" alt=""></div>
         
-        <h2 data-lang="fr" class="section-title">${skill.title_fr}</h2>
+        <h3 data-lang="fr" class="section-title">${skill.title_fr}</h3>
         ${skill.desc_fr.map(p => `<p data-lang="fr">${p}</p>`).join("")}
 
-        <h2 data-lang="en" class="section-title" style="display:none">${skill.title_en}</h2>
+        <h3 data-lang="en" class="section-title" style="display:none">${skill.title_en}</h3>
         ${skill.desc_en.map(p => `<p data-lang="en" style="display:none">${p}</p>`).join("")}
     `;
 
