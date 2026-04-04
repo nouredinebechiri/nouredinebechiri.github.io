@@ -196,8 +196,12 @@ grid-template-columns:repeat(2,1fr);
 gap:30px
 }
 .skills-icon{
-    width: 60px;
+    width: 40px;
     margin: auto;
+}
+.skills h2{
+    font-size: 20px;
+    margin: 0px;
 }
 .skill-card{
 /* background:var(--card); */
