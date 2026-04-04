@@ -99,8 +99,8 @@
                         <span data-lang="en" style="display:none">${titres_en[i]}</span>
                     </a>
                 </h3>
-                <p data-lang="fr" class="quote">${desc_fr[i]}</p>
-                <p data-lang="en" class="quote" style="display:none">${desc_en[i]}</p>
+                <p data-lang="fr">${desc_fr[i]}</p>
+                <p data-lang="en" style="display:none">${desc_en[i]}</p>
                 <p><span data-lang="fr">Livrée par </span> <span data-lang="en" style="display:none">Issued by </span><a href="${organizationUrl[i]}" target="_blank">${organization[i]}</a>, <span data-lang="fr">${organizationType_fr[i]}</span> <span data-lang="en" style="display:none">${organizationType_en[i]}</span></p>
             `;
             track.appendChild(slide);

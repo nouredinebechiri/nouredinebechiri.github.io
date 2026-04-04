@@ -2,8 +2,8 @@
 :root{
 --bg:#fff;
 --text:#1f1f1f;
---muted:#6b6b6b;
---primary:#01b289;
+--muted:#998c8c;
+--primary:#70b3c4;
 --card:#f6f6f6;
 --border:#e2e2e2;
 --career:#70b3c4;
@@ -23,7 +23,6 @@ body{
     line-height:1.65;
 }
 .nb-logo{
-    
     height: 40px;
 }
 a{text-decoration: none;color:var(--link);}
@@ -188,7 +187,7 @@ to{opacity:1;transform:none}
 .section-title span{color:var(--primary)}
 
 /* PRESENTATION */
-.presentation p{font-size:18px;color:var(--muted)}
+.presentation p{font-size:18px;font-style: italic;}
 
 /* SKILLS */
 .skills{
@@ -327,7 +326,7 @@ align-items:center;
 }
 .carousel-slide h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .carousel-slide p {
@@ -372,13 +371,9 @@ align-items:center;
     background: var(--link);
 }
 .credly-img{
-    width: 150px;
+    width: 120px;
     float: right;
 }
-.quote {
-    font-style: italic;
-}
-
 
 /* *******************************************************************  END : CERTIFICATION  ***************************************************************************************/
 
@@ -524,19 +519,7 @@ display: none;
     padding: 10px;
     
 }
-.quote {
-    margin-top: 50px;
-    font-style: italic;
-    position: relative;
-}
-.quote::before {
-    content: "“";
-    font-size: 50px;
-    color: #555555;
-    position: absolute;
-    left: -15px;
-    top: -40px;
-}
+
 /* END: ####################################################### CERTIFICATION   ##########################################################################*/
 .career-section{
     background-color: #1c47e3;
