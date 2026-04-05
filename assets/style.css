@@ -356,7 +356,7 @@ align-items:center;
     height: 42px;
     border-radius: 50%;
     cursor: pointer;
-    opacity: 0.85;
+    opacity: 0.3;
 }
 
 .carousel-btn:hover {
