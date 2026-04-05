@@ -203,7 +203,7 @@ gap:30px
 }
 .skill-card{
 /* background:var(--card); */
-padding:15px;
+padding:0px;
 /* border-radius:14px; */
 /* border:1px solid var(--border); */
 transition:.3s
@@ -286,6 +286,15 @@ flex-direction:row;
 gap:40px;
 align-items:center;
 }
+.skills-ul{
+    padding: 0px 0px 0px 10px;
+     list-style: none;
+}
+
+
+.skills-ul li::before {
+  content: "- ";
+}
 .career-content{
     border-radius: 2px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     background-color: var(--telegram-fc);
@@ -295,7 +304,7 @@ align-items:center;
     background-color: var(--career);
     color: #fff;
 }
-.career-text{flex:1.5}
+.career-text{flex:3}
 .career-image{flex:1}
 .career-image a{color: white;   
 }
