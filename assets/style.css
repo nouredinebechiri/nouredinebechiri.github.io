@@ -112,7 +112,7 @@ margin:14px 0;
 /* HERO */
 .hero{
 min-height:70vh;
-background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("../img/cover.jpg") center/cover no-repeat;
+background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,9)),url("../img/cover.jpg") center/cover no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
