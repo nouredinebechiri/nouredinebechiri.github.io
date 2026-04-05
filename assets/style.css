@@ -427,7 +427,7 @@ font-size:14px
 }
 .ligne {
             width: 200px;              /* largeur de la ligne */
-            border-top: 1px solid #000; /* épaisseur et couleur de la ligne */
+            border-top: 1px solid var(--muted); /* épaisseur et couleur de la ligne */
             margin: 20px auto
         }
 
