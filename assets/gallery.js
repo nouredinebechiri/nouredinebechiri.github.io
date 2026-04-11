@@ -62,19 +62,9 @@ const galleryData = [
         desc_en: "A collaborative platform designed to centralize information, streamline internal communication, and facilitate teamwork, enabling the creation of workspaces, document libraries, and customized portals within your organization."
     },
     {
-        img: "img/skypeforbusiness.jpg",
-        alt: "Skype Entreprise",
-        title_fr: "Solution de visioconférence",
-        title_en: "Video Conferencing Solution",
-        link_fr: "Skype Entreprise",
-        link_en: "Skype Entreprise",
-        desc_fr: "Une plateforme de communication unifiée pour faciliter la collaboration à distance, améliorer les échanges internes et connecter les équipes. Elle permet de passer des appels audio/vidéo, organiser des réunions en ligne, discuter par messagerie instantanée et partager des documents en temps réel.",
-        desc_en: "A unified communication platform that facilitates remote collaboration, enhances internal communication, and connects teams, enabling audio/video calls, online meetings, instant messaging, and real-time document sharing."
-    },
-    {
         img: "img/cisco.png",
         alt: "CISCO",
-        title_fr: "Conception de l'architecture Réseau",
+        title_fr: "Conception de l’architecture réseau",
         title_en: "Network Architecture Design",
         link_fr: "CISCO",
         link_en: "CISCO",
@@ -110,18 +100,7 @@ const galleryData = [
         link_en: "ZABBIX",
         desc_fr: "Une solution de supervision open source conçue pour surveiller en continu l’état de santé de vos systèmes, équipements réseau et services applicatifs. Grâce à son interface centralisée, Zabbix offre une visibilité complète et proactive sur l’ensemble de votre infrastructure IT.",
         desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services. With its centralized interface, Zabbix provides complete and proactive visibility across your entire IT infrastructure."
-    },
-    {
-        img: "img/glpi.png",
-        alt: "GLPI",
-        title_fr: "Géstion de parc IT",
-        title_en: "IT Asset Management",
-        link_fr: "GLPI",
-        link_en: "GLPI",
-        desc_fr: "Une solution open source permettant de gérer efficacement les équipements informatiques, les logiciels, les utilisateurs et les demandes de support. Elle centralise toutes les informations liées à votre infrastructure IT dans une interface unique, intuitive et personnalisable.",
-        desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services. With its centralized interface, Zabbix provides complete and proactive visibility across your entire IT infrastructure."
     }
-    // Ajouter ici les autres éléments identiquement
 ];
 
 // Sélection du conteneur
