@@ -68,8 +68,8 @@ const galleryData = [
         title_en: "Network Architecture Design",
         link_fr: "CISCO",
         link_en: "CISCO",
-        desc_fr: "Les solutions Cisco permettent de construire une infrastructure réseau robuste, évolutive et sécurisée, adaptée aux environnements professionnels les plus exigeants. Cisco offre une connectivité fiable et une gestion fine du trafic réseau.",
-        desc_en: "Cisco solutions enable the construction of a robust, scalable, and secure network infrastructure, tailored to demanding professional environments, providing reliable connectivity and fine-grained network traffic management."
+        desc_fr: "Conception d’architecture réseau d’entreprise basée sur les solutions de Cisco Systems, intégrant la segmentation via VLANs et le routage inter-VLAN afin d’optimiser la circulation des flux.La mise en place de protocoles de routage dynamique tels que OSPF et EIGRP pour assurer une convergence rapide et une meilleure redondance.",
+        desc_en: "Enterprise network architecture design based on Cisco Systems solutions, incorporating VLAN-based segmentation and inter-VLAN routing to optimize traffic flow. The implementation of dynamic routing protocols such as OSPF and EIGRP ensures fast convergence and improved network redundancy."
     },
     {
         img: "img/fortigate.jpg",
