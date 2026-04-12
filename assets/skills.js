@@ -6,11 +6,11 @@ const skillsData = [
         title_en: "IT Infrastructure & Data Center",
         desc_fr: [
             "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence.",
-            "<b>TECHNOLOGIES</b><br>Virtualisation, Hyperconvergence, haute disponibilité, Monitoring, Backup & Replication, Redondance réseau, Load Balancing."
+            "<b>TECHNOLOGIES</b><br>Virtualisation, Hyperconvergence, SAN, Monitoring, Backup & Replication, HA, Load Balancing."
         ],
         desc_en: [
             "Design and deployment of physical and virtual infrastructures based on virtualization and hyperconvergence.",
-            "<b>TECHNOLOGIES</b><br>Virtualization, Hyperconvergence, High Availability, Monitoring, Backup & Replication, Network Redundancy, Load Balancing."
+            "<b>TECHNOLOGIES</b><br>Virtualization, Hyperconvergence, SAN, Monitoring, Backup & Replication, HA, Load Balancing."
         ]
     },
     {   icon : "img/network.png",
