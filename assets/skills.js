@@ -26,8 +26,8 @@ const skillsData = [
         ]
     },
     {   icon : "img/network.png",
-        title_fr: "Réseaux d’Entreprise",
-        title_en: "Enterprise Networks",
+        title_fr: "Réseaux d’entreprise",
+        title_en: "Enterprise networks",
         desc_fr: [
             "Conception et configuration d’infrastructures réseau performantes, segmentées et redondantes.",
             "<b>TECHNOLOGIES</b><br>Routage & Commutation, Segmentation réseau (VLAN), Réseaux virtuels (GENEVE), Load Balancing, QoS, Monitoring réseau."
