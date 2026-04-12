@@ -2,8 +2,8 @@
 const skillsData = [
     {
         icon : "img/datacenter.png",
-        title_fr: "Infrastructure IT",
-        title_en: "IT Infrastructure",
+        title_fr: "Infrastructure IT & Datacenter",
+        title_en: "IT Infrastructure & Data Center",
         desc_fr: [
             "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence.",
             "<b>TECHNOLOGIES</b><br>Virtualisation, Hyperconvergence, haute disponibilité, Monitoring, Backup & Replication, Redondance réseau, Load Balancing."
