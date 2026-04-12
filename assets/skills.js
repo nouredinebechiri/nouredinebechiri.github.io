@@ -17,11 +17,11 @@ const skillsData = [
         title_fr: "Cybersécurité",
         title_en: "Cybersecurity",
         desc_fr: [
-            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications et les données critiques.",
+            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques.",
             "<b>TECHNOLOGIES</b><br>Pare-feux NG, VPN SSL/IPSec, WAF, Antivirus & EDR, Protection e-mail, Contrôle d’accès, Chiffrement, Journalisation, Notifications."
         ],
         desc_en: [
-            "Deployment of cybersecurity solutions and implementation of policies to protect systems, applications, and critical data.",
+            "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications.",
             "<b>TECHNOLOGIES</b><br>Next-Generation Firewalls, SSL/IPSec VPN, WAF, Antivirus & EDR, Email Protection, Access Control, Encryption, Logging, Alerts."
         ]
     },
