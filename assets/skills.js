@@ -13,18 +13,6 @@ const skillsData = [
             "<b>TECHNOLOGIES</b><br>Virtualization, Hyperconvergence, High Availability, Monitoring, Backup & Replication, Network Redundancy, Load Balancing."
         ]
     },
-    {   icon : "img/cybersecurity.png",
-        title_fr: "Cybersécurité",
-        title_en: "Cybersecurity",
-        desc_fr: [
-            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques.",
-            "<b>TECHNOLOGIES</b><br>Pare-feux NG, VPN SSL/IPSec, WAF, Antivirus & EDR, Protection e-mail, Contrôle d’accès, Chiffrement, Journalisation, Notifications."
-        ],
-        desc_en: [
-            "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications.",
-            "<b>TECHNOLOGIES</b><br>Next-Generation Firewalls, SSL/IPSec VPN, WAF, Antivirus & EDR, Email Protection, Access Control, Encryption, Logging, Alerts."
-        ]
-    },
     {   icon : "img/network.png",
         title_fr: "Réseaux d’entreprise",
         title_en: "Enterprise networks",
@@ -37,6 +25,18 @@ const skillsData = [
             "<b>TECHNOLOGIES</b><br>Routing & Switching, Network Segmentation (VLAN), Virtual Networks (GENEVE), Load Balancing, QoS, Network Monitoring."
         ]
     },
+    {   icon : "img/cybersecurity.png",
+        title_fr: "Cybersécurité",
+        title_en: "Cybersecurity",
+        desc_fr: [
+            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques.",
+            "<b>TECHNOLOGIES</b><br>Pare-feux NG, VPN SSL/IPSec, WAF, Antivirus & EDR, Protection e-mail, Contrôle d’accès, Chiffrement, Journalisation, Notifications."
+        ],
+        desc_en: [
+            "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications.",
+            "<b>TECHNOLOGIES</b><br>Next-Generation Firewalls, SSL/IPSec VPN, WAF, Antivirus & EDR, Email Protection, Access Control, Encryption, Logging, Alerts."
+        ]
+    }
     // {   icon : "img/collaboration.png",
     //     title_fr: "Solutions Collaboratifs",
     //     title_en: "Collaborative Solutions",
