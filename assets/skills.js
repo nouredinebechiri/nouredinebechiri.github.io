@@ -2,8 +2,8 @@
 const skillsData = [
     {
         icon : "img/datacenter.png",
-        title_fr: "Datacenter",
-        title_en: "Datacenter",
+        title_fr: "Infrastructure IT",
+        title_en: "IT Infrastructure",
         desc_fr: [
             "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence.",
             "<b>TECHNOLOGIES</b><br>Virtualisation, Hyperconvergence, haute disponibilité, Monitoring, Backup & Replication, Redondance réseau, Load Balancing."
@@ -26,8 +26,8 @@ const skillsData = [
         ]
     },
     {   icon : "img/network.png",
-        title_fr: "Réseaux",
-        title_en: "Networking",
+        title_fr: "Réseaux d’Entreprise",
+        title_en: "Enterprise Networks",
         desc_fr: [
             "Conception et configuration d’infrastructures réseau performantes, segmentées et redondantes.",
             "<b>TECHNOLOGIES</b><br>Routage & Commutation, Segmentation réseau (VLAN), Réseaux virtuels (GENEVE), Load Balancing, QoS, Monitoring réseau."
@@ -37,18 +37,18 @@ const skillsData = [
             "<b>TECHNOLOGIES</b><br>Routing & Switching, Network Segmentation (VLAN), Virtual Networks (GENEVE), Load Balancing, QoS, Network Monitoring."
         ]
     },
-    {   icon : "img/collaboration.png",
-        title_fr: "Collaboration",
-        title_en: "Collaboration",
-        desc_fr: [
-            "Déploiement de services collaboratifs  et mise en œuvre de solutions assurant la productivité des utilisateurs au sein de l’entreprise.",
-            "<b>TECHNOLOGIES</b><br>Open source ou proprietaire , Portail d'entreprise, Serveurs de fichiers, Serveurs d’impression."
-        ],
-        desc_en: [
-            "Deployment of collaborative services and implementation of solutions to enhance user productivity within the organization.",
-            "<b>TECHNOLOGIES</b><br>Open source or proprietary, Intranet Portal, File Servers, Print Servers."
-        ]
-    },
+    // {   icon : "img/collaboration.png",
+    //     title_fr: "Solutions Collaboratifs",
+    //     title_en: "Collaborative Solutions",
+    //     desc_fr: [
+    //         "Déploiement de services collaboratifs  et mise en œuvre de solutions assurant la productivité des utilisateurs au sein de l’entreprise.",
+    //         "<b>TECHNOLOGIES</b><br>Open source ou proprietaire , Portail d'entreprise, Serveurs de fichiers, Serveurs d’impression."
+    //     ],
+    //     desc_en: [
+    //         "Deployment of collaborative services and implementation of solutions to enhance user productivity within the organization.",
+    //         "<b>TECHNOLOGIES</b><br>Open source or proprietary, Intranet Portal, File Servers, Print Servers."
+    //     ]
+    // },
 ];
 
 // Récupération du conteneur HTML

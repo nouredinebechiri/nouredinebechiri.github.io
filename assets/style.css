@@ -189,8 +189,8 @@ to{opacity:1;transform:none}
 /* SKILLS */
 .skills{
 display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:30px
+grid-template-columns:repeat(3,1fr);
+gap:25px
 }
 .skills-icon{
     width: 40px;
