@@ -36,6 +36,12 @@ const items = [
     desc_en: "An security solution designed to protect messaging systems against spam, malware, and advanced email-borne threats.",
     link:"#"
   },
+  { icon: "img/zabbix.png", 
+    title: "ZABBIX", 
+    desc: "Une solution de supervision pour surveiller en continu l’état de santé de vos systèmes, équipements réseau et services applicatifs.",
+    desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services.",
+    link:"#"
+  },
 
   { icon: "img/veeam.jpg", 
     title: "VEEAM", 

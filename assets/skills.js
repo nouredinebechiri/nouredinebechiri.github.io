@@ -2,8 +2,8 @@
 const skillsData = [
     {
         icon : "img/datacenter.png",
-        title_fr: "Infrastructure IT & Datacenter",
-        title_en: "IT Infrastructure & Data Center",
+        title_fr: "Infrastructure IT",
+        title_en: "IT Infrastructure",
         desc_fr: [
             "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence."
         ],
@@ -25,7 +25,7 @@ const skillsData = [
         title_fr: "Cybersécurité",
         title_en: "Cybersecurity",
         desc_fr: [
-            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques."
+            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes et les applications critiques."
         ],
         desc_en: [
             "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications."
