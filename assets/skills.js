@@ -5,36 +5,30 @@ const skillsData = [
         title_fr: "Infrastructure IT & Datacenter",
         title_en: "IT Infrastructure & Data Center",
         desc_fr: [
-            "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence.",
-            "<b>TECHNOLOGIES</b><br>Virtualisation, Hyperconvergence, SAN, Monitoring, Backup & Replication, HA, Load Balancing."
+            "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence."
         ],
         desc_en: [
-            "Design and deployment of physical and virtual infrastructures based on virtualization and hyperconvergence.",
-            "<b>TECHNOLOGIES</b><br>Virtualization, Hyperconvergence, SAN, Monitoring, Backup & Replication, HA, Load Balancing."
+            "Design and deployment of physical and virtual infrastructures based on virtualization and hyperconvergence."
         ]
     },
     {   icon : "img/network.png",
         title_fr: "Réseaux d’entreprise",
         title_en: "Enterprise networks",
         desc_fr: [
-            "Conception et configuration d’infrastructures réseau performantes, segmentées et redondantes.",
-            "<b>TECHNOLOGIES</b><br>Routage & Commutation, Segmentation réseau (VLAN), Réseaux virtuels (GENEVE), Load Balancing, QoS, Monitoring réseau."
+            "Conception et configuration d’infrastructures réseau performantes, segmentées et redondantes."
         ],
         desc_en: [
-            "Design and configuration of high-performance, segmented, and redundant network infrastructures.",
-            "<b>TECHNOLOGIES</b><br>Routing & Switching, Network Segmentation (VLAN), Virtual Networks (GENEVE), Load Balancing, QoS, Network Monitoring."
+            "Design and configuration of high-performance, segmented, and redundant network infrastructures."
         ]
     },
     {   icon : "img/cybersecurity.png",
         title_fr: "Cybersécurité",
         title_en: "Cybersecurity",
         desc_fr: [
-            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques.",
-            "<b>TECHNOLOGIES</b><br>Pare-feux NG, VPN SSL/IPSec, WAF, Antivirus & EDR, Protection e-mail, Contrôle d’accès, Chiffrement, Journalisation, Notifications."
+            "Déploiement de solutions de cybersécurité et mise en place de politiques pour protéger les systèmes, les applications critiques."
         ],
         desc_en: [
-            "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications.",
-            "<b>TECHNOLOGIES</b><br>Next-Generation Firewalls, SSL/IPSec VPN, WAF, Antivirus & EDR, Email Protection, Access Control, Encryption, Logging, Alerts."
+            "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications."
         ]
     }
     // {   icon : "img/collaboration.png",
