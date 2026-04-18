@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/certifications.css">
+    <link rel="stylesheet" href="assets/technologies.css">
 </head>
 <body>
 
@@ -79,32 +80,49 @@
 
 <span class="lang-toggle" id="lang-toggle"></span>
 
-<section id="presentation">
+<!-- <section id="presentation">
     <div class="container reveal presentation">
+        
+    </div>
+</section> -->
+
+
+
+<section id="skills" class="skills-section">
+    <div class="container reveal">
         <div id="about-me">
             <p data-lang="fr">Je suis ingénieur en informatique, spécialisé dans la conception et l’architecture des systèmes et réseaux. Je mets en œuvre des solutions techniques sur mesure, adaptées aux besoins des entreprises.</p>
             <p data-lang="en" style="display:none">I am an IT engineer, specialized in the design and architecture of systems and networks. I implement tailor-made technical solutions adapted to business needs.</p>
             <a data-lang="fr"  class="about-me-btn" href="#career">Me connaitre d'avantage</a>
             <a data-lang="en" style="display:none" class="about-me-btn" href="#career">Learn more about me</a>
         </div>
-    </div>
-</section>
 
-<div class="ligne"></div>
-
-<section id="skills">
-    <div class="container reveal">
+        <div class="ligne"></div>
+        
         <h2 class="section-title" data-lang="fr"><span>Compétences</span> dans trois domaines clés</h2>
         <h2 class="section-title" data-lang="en" style="display:none"><span>Skills</span> in thee key areas</h2>
         <div class="center">
             <p data-lang="fr">En voici quelques exemples.</p>
             <p data-lang="en" style="display:none">Here are a few examples.</p>
         </div>
-        <div class="skills" id="skillsContainer"></div>
+        <div class="skills" id="skillsContainer"></div>         
+    </div>    
+</section>
+
+<section id="technologies" class="technologies">
+    <div class="container reveal">
+        <h2 data-lang="fr" class="section-title-l"><b>Sécurité et pérformance ne sont plus un compromis, mais un équilibre maîtrisé.</b></h2>
+        <h2 data-lang="en" style="display:none" class="section-title-l"><b>Security and performance are no longer a trade-off, but a mastered balance.</b></h2>
+        <p data-lang="fr">Vous n’avez pas besoin de mobiliser plusieurs équipes pour sécuriser et faire évoluer votre infrastructure IT. Je prends en charge ces technologies de bout en bout, de la conception à la protection opérationnelle.</p>
+        <p data-lang="en" style="display:none">You don’t need to mobilize multiple teams to secure and evolve your IT infrastructure. I handle these technologies end-to-end, from design to operational protection.
+</p>
+        <div class="carouselTechnology" id="carouselTechnology">
+            <div class="trackTechnology" id="trackTechnology"></div>
+        </div>
     </div>
 </section>
 
-<section id="gallery" class="gallery-section">
+<!-- <section id="gallery" class="gallery-section">
     <div class="container reveal">
         <h2 class="section-title" data-lang="fr">Des <span>projets </span>sur mesure</h2>
         <h2 class="section-title" data-lang="en" style="display:none">Tailor-made <span>projects</span></h2>
@@ -114,7 +132,8 @@
         </div>
         <div class="gallery" id="gallery-container"></div>
     </div>
-</section>
+</section> -->
+
 <!-- Certifications Slider-->
 <section class="certifications-section">
     <div class="carousel" id="carousel">
@@ -271,6 +290,8 @@ setLang(localStorage.getItem('siteLang')||'fr');
 
 <script src="assets/skills.js"></script>
 <script src="assets/gallery.js"></script>
+
+<script src="assets/technologies.js"></script>
 <script src="assets/certification.js"></script>
 </body>
 </html>
