@@ -3,69 +3,91 @@ const items = [
     title: "VMware vSphere", 
     desc: "Une plateforme de virtualisation puissante qui permet de créer, gérer et optimiser une infrastructure informatique virtuelle.",
     desc_en: "A powerful virtualization platform that enables the creation, management, and optimization of a virtual IT infrastructure.",
-    link:"#"
+    link:"#",
+    categories_fr:"Virtualisation - SDDC",
+    categories_en:"Virtualization - SDDC"
   },
   { icon: "img/vmware-vsan.png", 
     title: "VMware vSAN", 
     desc: "Une solution de stockage, elle permet de regrouper les disques des serveurs physique pour former un espace de stockage distribué.",
     desc_en: "A storage solution that aggregates the local disks of physical servers to create a distributed storage space.",
-    link:"#"
+    link:"#",
+    categories_fr:"Virtualisation - HCI",
+    categories_en:"Virtualization - HCI"
   },
   { icon: "img/vmware-nsx.png", 
     title: "VMware NSX",
     desc: "Une plateforme de virtualisation réseau qui permet de créer, gérer et sécuriser dynamiquement l’infrastructure réseau de votre datacenter.",
     desc_en: "A network virtualization platform that enables dynamic creation, management, and security of your datacenter network infrastructure.",
-    link:"#"
+    link:"#",
+    categories_fr:"Virtualisation - SDN",
+    categories_en:"Virtualization - SDN"
 
   },
   { icon: "img/fortinet.png", 
     title: "Fortigate", 
     desc: "Un pare-feu nouvelle génération (NGFW), conçue pour protéger l'infrastructure IT contre les cybermenaces.",
     desc_en: "A next-generation firewall (NGFW), designed to protect IT infrastructure against cyber threats.",
-    link:"#"
+    link:"#",
+    categories_fr:"Sécurité - NGFW",
+    categories_en:"Security - NGFW"
   },
   { icon: "img/fortinet.png", 
     title: "FortiWeb", 
     desc: "Un pare-feu applicatif web (WAF), conçu pour protéger les applications web et les API contre les cybermenaces.",
     desc_en: "A Web Application Firewall (WAF), designed to protect web applications and APIs from cyber threats.",
-    link:"https://www.fortinet.com/fr/products/web-application-firewall/fortiweb"
+    link:"https://www.fortinet.com/fr/products/web-application-firewall/fortiweb",
+    categories_fr:"Sécurité - WAF",
+    categories_en:"Security - WAF"
   },
    { icon: "img/fortinet.png", 
     title: "FortiMail", 
     desc: "Une solution de sécurité, conçue pour protéger les systèmes de messagerie contre le spam, les malwares et les menaces véhiculées par email.",
     desc_en: "An security solution designed to protect messaging systems against spam, malware, and advanced email-borne threats.",
-    link:"#"
+    link:"#",
+    categories_fr:"Sécurité - Passerelle de messagerie",
+    categories_en:"Security - Mail Gateway"
   },
   { icon: "img/zabbix.png", 
     title: "ZABBIX", 
     desc: "Une solution de supervision pour surveiller en continu l’état de santé de vos systèmes, équipements réseau et services applicatifs.",
     desc_en: "An open-source monitoring solution designed to continuously track the health of your systems, network devices, and application services.",
-    link:"#"
+    link:"#",
+    categories_fr:"Supervision - Alerte",
+    categories_en:"Monitoring - Alert"
   },
 
   { icon: "img/veeam.jpg", 
     title: "VEEAM", 
     desc: "Une solution de protection des données, elle permet de sauvegarder, répliquer et restaurer rapidement vos systèmes en cas d’incident.", 
     desc_en: "A data protection solution that enables you to back up, replicate, and quickly restore your systems in the event of an incident.",
-    link:"#"
+    link:"#",
+    categories_fr:"Protection - Sauvegarde",
+    categories_en:"Protection - Backup"
   },
   { icon: "img/ad.png", 
     title: "Microsoft Active Directory", 
     desc: "Un service d’annuaire qui permet de centraliser la gestion des utilisateurs, des ordinateurs et des ressources au sein d’un réseau d’entreprise.",
     desc_en: "A directory service that centralizes the management of users, computers, and resources within an enterprise network.",
-    link:"#"
+    link:"#",
+    categories_fr:"Service d’annuaire",
+    categories_en:"Directory service"
   },
   { icon: "img/exchange.jpg", 
     title: "Microsoft Exchange", 
     desc: "Une plateforme de messagerie conçue pour offrir une communication sécurisée, performante et centralisée au sein des entreprises.",
     desc_en: "A email platform designed to provide secure, efficient, and centralized communication within businesses.",
-    link:"#"
+    link:"#",
+    categories_fr:"Service de messagerie",
+    categories_en:"Messaging service"
   },
   { icon: "img/sharepoint.jpg", 
     title: "SharePoint", 
     desc: "Une plateforme collaborative conçue pour centraliser l'information, fluidifier la communication interne et faciliter le travail en équipe.",
     desc_en: "A collaborative platform designed to centralize information, streamline internal communication, and facilitate teamwork.",
-    link:"#"
+    link:"#",
+    categories_fr:"Service collaboratif",
+    categories_en:"Collaborative service"
   },
  ];
 
@@ -86,6 +108,9 @@ allItems.forEach(item => {
     </div>
     <div data-lang="fr" class="desc">${item.desc}</div>
     <div data-lang="en" style="display:none" class="desc">${item.desc_en}</div>
+    <div class="ligne"></div>
+    <div data-lang="fr" class="desc"><b>${item.categories_fr}</b></div>
+    <div data-lang="en" style="display:none" class="desc"><b>${item.categories_en}</b></div>
   `;
 
   trackTechnology.appendChild(div);
