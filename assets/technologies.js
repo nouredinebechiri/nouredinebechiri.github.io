@@ -118,7 +118,7 @@ allItems.forEach(item => {
 
 // 🎬 animation
 let position = 0;
-let speed = 1.5;
+let speed = 1;
 let isPaused = false;
 
 function animate() {
