@@ -33,7 +33,7 @@ const items = [
     categories_en:"Virtualization - Container"
 
   },
-  { icon: "img/Kubernetes.png", 
+  { icon: "img/kubernetes.png", 
     title: "Kubernetes",
     desc: "Kubernetes permet d’automatiser le déploiement, la gestion, la mise à l’échelle et la disponibilité des applications conteneurisées.",
     desc_en: "Kubernetes automates the deployment, management, scaling, and availability of containerized applications.",
