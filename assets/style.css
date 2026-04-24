@@ -436,9 +436,9 @@ font-size:14px
     text-align: left;
 }
 .ligne {
-            width: 200px;              /* largeur de la ligne */
+                         /* largeur de la ligne */
             border-top: 1px solid var(--muted); /* épaisseur et couleur de la ligne */
-            margin: 20px auto
+            margin: 10px 0px 5px 0px;
         }
 
 .about-me-btn {
