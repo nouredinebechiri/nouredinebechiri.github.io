@@ -50,7 +50,7 @@ const items = [
     categories_fr:"Sécurité - NGFW",
     categories_en:"Security - NGFW"
   },
-  { icon: "img/fortinet.png", 
+  { icon: "img/fortiweb.png", 
     title: "FortiWeb", 
     desc: "Un pare-feu applicatif web (WAF), conçu pour protéger les applications web et les API contre les cybermenaces.",
     desc_en: "A Web Application Firewall (WAF), designed to protect web applications and APIs from cyber threats.",
@@ -58,7 +58,7 @@ const items = [
     categories_fr:"Sécurité - WAF",
     categories_en:"Security - WAF"
   },
-   { icon: "img/fortinet.png", 
+   { icon: "img/fortimail.png", 
     title: "FortiMail", 
     desc: "Une solution de sécurité, conçue pour protéger les systèmes de messagerie contre le spam, les malwares et les menaces véhiculées par email.",
     desc_en: "An security solution designed to protect messaging systems against spam, malware, and advanced email-borne threats.",
