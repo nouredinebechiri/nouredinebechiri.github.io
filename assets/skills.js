@@ -12,7 +12,7 @@ const skillsData = [
             "Design and deployment of physical and virtual infrastructures based on virtualization and hyperconvergence."
         ],
         techno: [
-            "<b>TECHNOLOGIES</b><br>Virtualization, HCI, SDN, Container, Automation, SAN, NAS, LDAP, SSO"
+            "<b>TECHNOLOGIES</b><br>Virtualization, HCI, SDN, Container, Automation, RAID, SAN, NAS, LDAP, SSO"
         ],
     },
     {   icon : "img/network.png",
