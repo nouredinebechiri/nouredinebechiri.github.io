@@ -4,12 +4,16 @@ const skillsData = [
         icon : "img/datacenter.png",
         title_fr: "Infrastructure IT",
         title_en: "IT Infrastructure",
+        
         desc_fr: [
             "Conception et déploiement d’infrastructures physiques et virtuelles reposant sur la virtualisation et l’hyperconvergence."
         ],
         desc_en: [
             "Design and deployment of physical and virtual infrastructures based on virtualization and hyperconvergence."
-        ]
+        ],
+        techno: [
+            "<b>TECHNOLOGIES</b><br>Virtualization, HCI, SDN, Container, Automation, SAN, NAS, LDAP, SSO"
+        ],
     },
     {   icon : "img/network.png",
         title_fr: "Réseaux d’entreprise",
@@ -19,7 +23,11 @@ const skillsData = [
         ],
         desc_en: [
             "Design and configuration of high-performance, segmented, and redundant network infrastructures."
-        ]
+        ],
+
+        techno: [
+           "<b>TECHNOLOGIES</b><br> Segmentation, VLAN, Overlay, LACP, Load Balancing "
+        ],
     },
     {   icon : "img/cybersecurity.png",
         title_fr: "Cybersécurité",
@@ -29,7 +37,11 @@ const skillsData = [
         ],
         desc_en: [
             "Deployment of cybersecurity solutions and implementation of policies to protect systems and critical applications."
-        ]
+        ],
+        techno: [
+            "<b>TECHNOLOGIES</b><br> Firewall, WAF, VPN, Antivirus/EDR, SIEM, Anti-spam, Anti-phishing"
+        ],
+
     }
     // {   icon : "img/collaboration.png",
     //     title_fr: "Solutions Collaboratifs",
@@ -58,9 +70,13 @@ skillsData.forEach(skill => {
         
         <h3 data-lang="fr" class="section-title">${skill.title_fr}</h3>
         ${skill.desc_fr.map(p => `<p data-lang="fr">${p}</p>`).join("")}
+        <p data-lang="fr">${skill.techno}</p>
+        
 
         <h3 data-lang="en" class="section-title" style="display:none">${skill.title_en}</h3>
         ${skill.desc_en.map(p => `<p data-lang="en" style="display:none">${p}</p>`).join("")}
+        <p data-lang="en" style="display:none">${skill.techno}</p>
+        
     `;
 
     card.innerHTML = content;

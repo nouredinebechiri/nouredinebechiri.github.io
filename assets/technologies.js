@@ -24,6 +24,24 @@ const items = [
     categories_en:"Virtualization - SDN"
 
   },
+  { icon: "img/docker.png", 
+    title: "Docker",
+    desc: "Docker permet d'exécuter des applications conteneurisées. Il simplifie leur déploiement et améliore la portabilité et la scalabilité.",
+    desc_en: "Docker runs containerized applications.It simplifies deployment and improves portability and scalability.",
+    link:"#",
+    categories_fr:"Virtualisation - Conteneur",
+    categories_en:"Virtualization - Container"
+
+  },
+  { icon: "img/Kubernetes.png", 
+    title: "Kubernetes",
+    desc: "Kubernetes permet d’automatiser le déploiement, la gestion, la mise à l’échelle et la disponibilité des applications conteneurisées.",
+    desc_en: "Kubernetes automates the deployment, management, scaling, and availability of containerized applications.",
+    link:"#",
+    categories_fr:"Virtualisation - Automatisation - Conteneur ",
+    categories_en:"Virtualization - Automation, Container"
+
+  },
   { icon: "img/fortinet.png", 
     title: "Fortigate", 
     desc: "Un pare-feu nouvelle génération (NGFW), conçue pour protéger l'infrastructure IT contre les cybermenaces.",
