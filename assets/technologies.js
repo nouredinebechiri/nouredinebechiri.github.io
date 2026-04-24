@@ -100,7 +100,7 @@ const items = [
     categories_en:"Messaging service"
   },
   { icon: "img/sharepoint.jpg", 
-    title: "SharePoint", 
+    title: "Microsoft SharePoint", 
     desc: "Une plateforme collaborative conçue pour centraliser l'information, fluidifier la communication interne et faciliter le travail en équipe.",
     desc_en: "A collaborative platform designed to centralize information, streamline internal communication, and facilitate teamwork.",
     link:"#",
