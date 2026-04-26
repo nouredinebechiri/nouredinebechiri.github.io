@@ -495,7 +495,11 @@ font-size:14px
 /* RESPONSIVE */
 @media(max-width:900px){
 .section-title {font-size: 20px; font-weight: normal;}
+.about-me-btn {
+        font-size: 14px;
+        width: 200px;                /* largeur du bouton */
 
+    }
 .hamburger{display:flex;}
 
 nav .menu{
