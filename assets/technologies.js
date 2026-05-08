@@ -42,6 +42,16 @@ const items = [
     categories_en:"Virtualization - Automation, Container"
 
   },
+  { icon: "img/nginx.png", 
+    title: "Nginx",
+    desc: "Un serveur web qui permet de gérer les requêtes HTTP et de distribuer le trafic réseau. Il améliore la rapidité et la sécurité des applications web.",
+    desc_en: "A high web server that handles HTTP requests and distributes network traffic. It improves the speed and security of web applications.",
+    link:"#",
+    categories_fr:"Serveur web - Équilibrage de Charge - Proxy Inverse  ",
+    categories_en:"Web Server - Load Balancing - Reverse Proxy"
+
+  },
+  
   { icon: "img/fortinet.png", 
     title: "Fortigate", 
     desc: "Un pare-feu nouvelle génération (NGFW), conçue pour protéger l'infrastructure IT contre les cybermenaces.",
