@@ -37,6 +37,12 @@
 
 .icon {
   width: 50px;
+
+}
+.icon-django {
+  width: 130px;
+  margin-left: 20px;
+
 }
 
 .title {
